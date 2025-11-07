@@ -1,0 +1,511 @@
+# DAH7PS Allostery Evolution & ASR - Workflow Configuration
+# Last updated: 2025-11-07
+
+# ============================================================================
+# PROJECT PATHS
+# ============================================================================
+
+project_root: "/home/user/bigtree"
+
+# Input/output directories
+paths:
+  raw_data: "data/raw"
+  processed_data: "data/processed"
+  sequences: "seqs"
+  domains: "seqs/domains"
+  alignments: "msa"
+  trees: "trees"
+  asr: "asr"
+  traits: "traits"
+  structures: "structures"
+  figures: "figs"
+  logs: "logs"
+  scripts: "scripts"
+  notebooks: "notebooks"
+
+# External databases and resources
+databases:
+  pfam_hmm: "data/raw/Pfam-A.hmm"
+  uniprot_ref_proteomes: "data/raw/uniprot_reference_proteomes"
+  refseq: "data/raw/refseq"
+  kegg_ko: "data/raw/kegg/ko_list"
+  pdb_structures: "structures/pdbs"
+
+# ============================================================================
+# SEQUENCE COLLECTION (Phase 2)
+# ============================================================================
+
+sequence_collection:
+  # HMMER search parameters
+  hmmer:
+    type_I_profile: "PF00793"      # DAHP_synth_1
+    type_II_profile: "PF01474"     # DAHP_synth_2
+    evalue_threshold: 1.0e-10
+    use_gathering_cutoff: true     # Use --cut_ga if true
+    cpu: 8
+
+  # Quality filters
+  quality_filters:
+    min_domain_coverage: 0.85      # 85% of expected domain length
+    max_ambiguous_fraction: 0.20   # ≤20% 'X' residues
+    min_length: 200                # Minimum sequence length (aa)
+    max_length: 1500               # Maximum sequence length (aa)
+
+  # Redundancy reduction
+  clustering:
+    method: "mmseqs2"              # Options: "cdhit", "mmseqs2"
+    identity_threshold: 0.90       # 90% sequence identity
+    coverage_threshold: 0.85       # 85% coverage
+    keep_longest: true             # Keep longest representative
+
+  # Contamination filtering
+  contamination:
+    exclude_ko: ["K01627"]         # KDO8PS (kdsA)
+    manual_inspection: true
+    max_contamination_rate: 0.01   # ≤1%
+
+  # Taxonomic sampling
+  taxonomy:
+    include_groups:
+      - "Bacteria"
+      - "Archaea"
+      - "Viridiplantae"
+      - "Fungi"
+    exclude_groups:
+      - "Metazoa"                  # Animals lack pathway
+    min_phyla_bacteria: 5          # Minimum bacterial phyla
+
+  # Expected output sizes
+  targets:
+    type_Ialpha: [50, 200]         # Min-max representatives
+    type_Ibeta: [50, 200]
+    type_II: [50, 200]
+
+# ============================================================================
+# DOMAIN ANNOTATION (Phase 3)
+# ============================================================================
+
+domain_annotation:
+  # HMMER domain scan
+  hmmscan:
+    act_domain: "PF01842"          # ACT domain
+    cm_domain: ["PF01817", "PF04715"]  # Chorismate mutase (AroQ, CM_2)
+    evalue_threshold: 1.0e-5
+    coverage_threshold: 0.70       # 70% of domain model
+    cpu: 8
+
+  # Localization prediction
+  localization:
+    signalp:
+      version: 6.0
+      organism_type: "gram-"       # Options: gram+, gram-, eukarya
+      # path: "signalp6"           # Uncomment if not in PATH
+    targetp:
+      version: 2.0
+      organism_type: "plant"       # For plant sequences
+      # path: "targetp"            # Uncomment if not in PATH
+    mask_targeting_sequences: true # Remove from alignments
+
+  # Architecture classification
+  architecture:
+    categories:
+      - "core_only"
+      - "core+ACT"
+      - "core+ACT2"                # Tandem ACT domains
+      - "core+CM"
+      - "core+ACT+CM"
+      - "other"
+    min_domain_separation: 20      # Minimum aa between domains
+
+  # Phenotype curation
+  phenotypes:
+    sources:
+      - "UniProt"
+      - "BRENDA"
+      - "literature"
+    required_fields:
+      - "effector"
+      - "inhibition_mode"
+    optional_fields:
+      - "ki_value"
+      - "reference_pmid"
+
+# ============================================================================
+# MULTIPLE SEQUENCE ALIGNMENT (Phase 4)
+# ============================================================================
+
+alignment:
+  # Partition strategy
+  partitions:
+    - name: "core_Ialpha"
+      domain: "catalytic_core"
+      class: "type_Ialpha"
+    - name: "core_Ibeta"
+      domain: "catalytic_core"
+      class: "type_Ibeta"
+    - name: "core_II"
+      domain: "catalytic_core"
+      class: "type_II"
+    - name: "ACT"
+      domain: "ACT_domain"
+      class: "all"
+    - name: "CM"
+      domain: "CM_domain"
+      class: "all"
+
+  # Alignment tools
+  tools:
+    primary: "mafft"               # Options: mafft, muscle5
+    secondary: "muscle5"           # For comparison
+
+  # MAFFT parameters
+  mafft:
+    algorithm: "linsi"             # L-INS-i (accurate)
+    # algorithm: "einsi"           # E-INS-i (for conserved domains)
+    maxiterate: 1000
+    thread: 8
+    reorder: true
+
+  # MUSCLE v5 parameters
+  muscle5:
+    algorithm: "super5"            # High accuracy mode
+    perturb: 0                     # Set >0 for ensemble alignments
+    threads: 8
+
+  # Quality assessment
+  quality:
+    use_guidance: false            # GUIDANCE2 (slow, optional)
+    guidance_cutoff: 0.5           # Column confidence threshold
+
+  # Trimming
+  trimming:
+    method: "trimal"               # Options: trimal, bmge
+    trimal_mode: "automated1"      # Options: gappyout, automated1, strict
+    bmge_entropy: 0.5              # If using BMGE
+    bmge_gap_rate: 0.50            # Maximum gap fraction
+    preserve_catalytic: true       # Manual check of known residues
+    preserve_regulatory: true      # Keep interface residues
+
+  # Concatenation (optional)
+  concatenation:
+    enabled: false                 # Set true for concatenated tree
+    partitions: ["core_Ialpha", "ACT"]  # Which to concatenate
+    partition_file: "msa/partitions.nex"
+
+# ============================================================================
+# PHYLOGENETIC INFERENCE (Phase 5)
+# ============================================================================
+
+phylogenetics:
+  # Tree building tool
+  tool: "iqtree2"                  # Options: iqtree2, raxml-ng
+
+  # IQ-TREE parameters
+  iqtree:
+    # Model selection
+    model_finder: true
+    model_set: "LG,WAG,JTT"        # Protein models to test
+    allow_mixture: true            # LG+C20, LG+C60, etc.
+    mixture_models: ["C20", "C60"] # Specific mixture models
+    rate_heterogeneity: ["G", "R"] # Gamma, FreeRate
+
+    # Bootstrap support
+    bootstrap_replicates: 1000
+    bootstrap_type: "ufboot"       # Ultrafast bootstrap
+    sh_alrt: 1000                  # SH-like approximate likelihood ratio test
+
+    # Computational
+    threads: 8
+    memory: "32G"
+    safe_mode: false               # Turn off for speed
+
+    # Rooting
+    rooting_strategy: "midpoint"   # Options: midpoint, outgroup
+    outgroup_taxa: []              # If using outgroup rooting
+
+  # RAxML-NG parameters (alternative)
+  raxml:
+    model: "LG+G8+F"
+    bootstrap_replicates: 1000
+    bootstrap_type: "autoMRE"      # Automatic bootstrap convergence
+    threads: 8
+
+  # Support value thresholds (for QC)
+  support_thresholds:
+    ufboot_strong: 95
+    ufboot_moderate: 80
+    sh_alrt_strong: 80
+    sh_alrt_moderate: 70
+
+  # Tree analyses
+  analyses:
+    - "per_partition"              # Separate trees for each partition
+    # - "concatenated"             # Uncomment if using concatenation
+    - "support_summary"            # Summarize support values
+
+# ============================================================================
+# ANCESTRAL SEQUENCE RECONSTRUCTION (Phase 6)
+# ============================================================================
+
+asr:
+  # Focal nodes (to be identified after tree inference)
+  focal_nodes:
+    - name: "LCA_Type_Ialpha"
+      description: "Last common ancestor of Type Iα"
+    - name: "LCA_Type_Ibeta"
+      description: "Last common ancestor of Type Iβ"
+    - name: "LCA_Type_II"
+      description: "Last common ancestor of Type II"
+    - name: "First_ACT"
+      description: "Earliest ACT domain-bearing ancestor"
+    - name: "First_CM"
+      description: "Earliest CM fusion ancestor"
+    # Add more nodes as identified
+
+  # Reconstruction method
+  method: "iqtree"                 # Options: iqtree, paml, fastml
+
+  # IQ-TREE ASR
+  iqtree_asr:
+    ancestral_type: "marginal"     # Marginal reconstruction
+    use_best_model: true           # Use model from tree inference
+    output_all_states: true        # Full probability distributions
+
+  # PAML codeml (optional, for joint reconstruction)
+  paml:
+    enabled: false
+    seqtype: 1                     # Amino acids
+    model: 3                       # Empirical + F
+    ncatg: 8                       # Gamma categories
+
+  # Uncertainty quantification
+  uncertainty:
+    posterior_prob_cutoff: 0.80    # Consensus threshold
+    identify_ambiguous: true       # Sites with PP < cutoff
+    bootstrap_trees: false         # ASR over bootstrap samples (slow)
+
+  # Output
+  output:
+    format: "fasta"
+    include_probabilities: true
+    per_partition: true            # Reconstruct each partition separately
+
+# ============================================================================
+# TRAIT EVOLUTION (Phase 7)
+# ============================================================================
+
+trait_evolution:
+  # Discrete traits to analyze
+  traits:
+    - name: "ACT_presence"
+      type: "binary"
+      states: ["absent", "present"]
+    - name: "CM_presence"
+      type: "binary"
+      states: ["absent", "present"]
+    - name: "effector_class"
+      type: "categorical"
+      states: ["Tyr", "Phe", "Trp", "Chorismate", "Prephenate", "Multiple", "None"]
+    - name: "inhibition_mode"
+      type: "categorical"
+      states: ["single", "synergistic", "none"]
+
+  # Reconstruction method
+  method: "pastml"                 # Options: pastml, phytools, bayestraits
+
+  # PastML parameters
+  pastml:
+    model: "MPPA"                  # Joint Maximum Parsimony / Marginal Posterior Probabilities Approximation
+    # model: "ML"                  # Alternative: Maximum Likelihood (Mk model)
+    prediction_method: "JOINT"     # JOINT or MARGINAL
+
+  # phytools (R-based, alternative)
+  phytools:
+    model: "ER"                    # Equal rates
+    # model: "ARD"                 # All rates different
+    nsim: 1000                     # Stochastic mapping simulations
+
+  # Analyses
+  analyses:
+    - "ancestral_state_reconstruction"
+    - "transition_counting"        # Count domain gain/loss events
+    - "correlation_analysis"       # Domain architecture ↔ effector
+    - "lineage_patterns"           # Taxon-specific trends
+
+# ============================================================================
+# STRUCTURAL MAPPING (Phase 8)
+# ============================================================================
+
+structural_mapping:
+  # Representative structures (PDB IDs to be filled)
+  structures:
+    type_Ialpha:
+      - pdb_id: "1RZM"             # Example - to be verified
+        organism: "E. coli"
+        description: "aroG Phe-sensitive"
+    type_Ibeta:
+      - pdb_id: "TBD"
+    type_II:
+      - pdb_id: "TBD"
+    ACT_domain:
+      - pdb_id: "TBD"
+    CM_fusion:
+      - pdb_id: "TBD"
+
+  # Mapping analyses
+  analyses:
+    - "ancestral_substitutions"    # Map to structure
+    - "interface_residues"         # Core-ACT, Core-CM
+    - "convergent_sites"           # Parallel evolution
+    - "rate_variation"             # Rate4Site on structure
+
+  # Visualization
+  visualization:
+    tool: "pymol"                  # Options: pymol, chimerax
+    color_scheme: "by_posterior"   # Color by ASR uncertainty
+    highlight_catalytic: true
+    highlight_interfaces: true
+
+# ============================================================================
+# ROBUSTNESS & SENSITIVITY (Phase 9)
+# ============================================================================
+
+robustness:
+  # Alignment robustness
+  alignment_variants:
+    - method: "mafft"
+      trimming: "trimal_automated1"
+    - method: "muscle5"
+      trimming: "trimal_automated1"
+    - method: "mafft"
+      trimming: "bmge"
+
+  # Sampling robustness
+  sampling_variants:
+    - name: "full"
+      clustering: 0.90
+    - name: "lite"
+      clustering: 0.70
+    - name: "outlier_removed"
+      remove_long_branches: true
+
+  # Model robustness
+  model_variants:
+    - "LG+G8+F"                    # Site-homogeneous
+    - "LG+C20+F+G"                 # Mixture model
+    - "LG+C60+F+R8"                # Complex mixture
+
+  # Comparison metrics
+  metrics:
+    - "robinson_foulds_distance"   # Tree topology
+    - "branch_score_distance"      # Branch lengths
+    - "ancestral_pp_correlation"   # ASR stability
+
+# ============================================================================
+# WORKFLOW EXECUTION
+# ============================================================================
+
+execution:
+  # Snakemake settings
+  snakemake:
+    cores: 8
+    use_conda: true
+    conda_prefix: "../env"
+
+  # Parallel execution
+  parallel:
+    enabled: true
+    max_jobs: 4
+
+  # Cluster execution (if using HPC)
+  cluster:
+    enabled: false
+    scheduler: "slurm"             # Options: slurm, pbs, sge
+    default_queue: "normal"
+    default_time: "24:00:00"
+    default_mem: "32G"
+
+  # Logging
+  logging:
+    level: "INFO"                  # DEBUG, INFO, WARNING, ERROR
+    log_dir: "logs"
+    timestamp: true
+
+# ============================================================================
+# QUALITY CONTROL GATES
+# ============================================================================
+
+qc_gates:
+  # Sequence collection
+  sequence_collection:
+    min_sequences_per_class: 50
+    max_sequences_per_class: 200
+    min_bacterial_phyla: 5
+    max_contamination: 0.01
+
+  # MSA quality
+  alignment:
+    min_catalytic_conservation: 0.95
+    min_guidance_column_score: 0.50  # If using GUIDANCE
+
+  # Phylogenetic support
+  phylogenetics:
+    min_ufboot_majority: 0.60      # 60% of nodes > 95
+    min_key_node_ufboot: 95
+    min_key_node_shalrt: 80
+
+  # ASR quality
+  asr:
+    min_median_pp_core: 0.80       # Catalytic core
+    min_focal_site_pp: 0.90        # For 70% of focal ancestor sites
+
+  # Trait reconstruction
+  trait_evolution:
+    min_model_consistency: 2       # Across ≥2 settings
+
+# ============================================================================
+# OUTPUT & REPORTING
+# ============================================================================
+
+output:
+  # Final deliverables
+  deliverables:
+    - "sequences/dah7ps_nonredundant.faa"
+    - "data/processed/metadata.tsv"
+    - "msa/*.trim.faa"
+    - "trees/*.treefile"
+    - "asr/*_ancestral.faa"
+    - "traits/trait_matrix.tsv"
+    - "figs/*.pdf"
+    - "docs/report.md"
+
+  # Data deposition
+  deposition:
+    zenodo: true
+    doi: "TBD"
+
+  # Reporting
+  report:
+    format: "markdown"             # Options: markdown, html, pdf
+    include_figures: true
+    include_tables: true
+    include_methods: true
+
+# ============================================================================
+# MISCELLANEOUS
+# ============================================================================
+
+misc:
+  # Random seed (for reproducibility)
+  random_seed: 42
+
+  # Temporary files
+  keep_temp_files: false
+  temp_dir: "tmp"
+
+  # Notifications (optional)
+  notifications:
+    enabled: false
+    email: "user@example.com"
+    on_completion: true
+    on_error: true

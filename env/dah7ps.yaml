@@ -1,0 +1,178 @@
+name: dah7ps
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # Python and core scientific stack
+  - python=3.10
+  - pip>=23.0
+
+  # Sequence search and database tools
+  - hmmer=3.4
+  - blast=2.15.0
+  - cd-hit=4.8.1
+  - mmseqs2=15.6f452
+
+  # Multiple sequence alignment
+  - mafft=7.525
+  - muscle=5.1
+  - clustalo=1.2.4
+
+  # Alignment trimming and quality control
+  - trimal=1.4.1
+  - bmge=1.12
+
+  # Phylogenetic inference
+  - iqtree=2.2.5
+  - raxml-ng=1.2.0
+  - fasttree=2.1.11
+
+  # Ancestral sequence reconstruction
+  - paml=4.10.7
+
+  # Protein localization prediction
+  # Note: SignalP 6 and TargetP 2 may require separate installation from DTU
+  # These are placeholders for conda-available versions
+  - signalp=4.1  # Note: Version 6 may need manual install
+  - deepsig=1.2.5  # Alternative signal peptide predictor
+
+  # Domain and motif analysis
+  - interproscan=5.59_91.0
+  - prosite-scan=20.155
+
+  # Sequence manipulation
+  - seqkit=2.5.1
+  - bioawk=1.0
+  - seqtk=1.4
+
+  # Python packages for bioinformatics
+  - biopython=1.81
+  - pandas=2.0.3
+  - numpy=1.24.3
+  - scipy=1.11.1
+  - scikit-learn=1.3.0
+  - matplotlib=3.7.2
+  - seaborn=0.12.2
+  - plotly=5.16.1
+  - pyqt=5.15.9  # For matplotlib GUI backend
+
+  # Phylogenetic analysis in Python
+  - ete3=3.1.3
+  - dendropy=4.6.1
+  - toytree=2.0.5
+
+  # R and phylogenetics packages
+  - r-base=4.3.1
+  - r-ape=5.7_1
+  - r-phytools=2.0_3
+  - r-ggtree=3.8.0
+  - r-treeio=1.24.0
+  - r-tidyverse=2.0.0
+  - r-ggplot2=3.4.3
+  - r-cowplot=1.1.1
+  - r-phangorn=2.11.1
+  - r-castor=1.7.6
+
+  # Structural bioinformatics
+  - pymol-open-source=2.5.0
+  - dssp=4.4.0
+  - ncbi-datasets-cli=15.11.0
+
+  # Workflow management
+  - snakemake=7.32.4
+  - snakemake-minimal=7.32.4
+
+  # Version control and utilities
+  - git=2.42.0
+  - git-lfs=3.4.0
+  - wget=1.21.4
+  - curl=8.2.1
+  - parallel=20230822
+  - sqlite=3.43.0
+
+  # Jupyter for notebooks
+  - jupyter=1.0.0
+  - jupyterlab=4.0.5
+  - ipython=8.15.0
+  - notebook=7.0.3
+
+  # Data management
+  - hdf5=1.14.2
+  - pytables=3.8.0
+
+  # Compression utilities
+  - pigz=2.7
+  - gzip
+  - bzip2=1.0.8
+  - xz=5.4.2
+
+  # Text processing
+  - csvtk=0.28.0
+  - jq=1.6
+  - yq=3.2.3
+
+  # Pip packages (not available in conda or newer versions)
+  - pip:
+    - pastml>=1.9.34  # Ancestral trait reconstruction
+    - fastML>=3.0     # If available; may need source install
+    - guidance2>=2.0  # MSA quality; may need manual install
+    - prody>=2.4.0    # Protein dynamics and structure analysis
+    - nglview>=3.0.8  # 3D structure visualization in Jupyter
+    - pyhmmer>=0.10.4 # Python bindings for HMMER
+    - biotite>=0.38.0 # Alternative bioinformatics library
+    - treetime>=0.11.2 # Time-scaled phylogenies
+    - logomaker>=0.8  # Sequence logos
+    - scikit-bio>=0.5.9 # Additional bio algorithms
+    - pyyaml>=6.0     # YAML parsing
+    - colorlog>=6.7.0 # Colored logging
+    - tqdm>=4.66.0    # Progress bars
+    - requests>=2.31.0 # HTTP library
+    - lxml>=4.9.3     # XML processing
+    - openpyxl>=3.1.2 # Excel file support
+    - xlrd>=2.0.1     # Excel reading
+
+# Post-install notes:
+#
+# 1. SignalP 6.0 and TargetP 2.0 require manual installation:
+#    - Download from DTU Health Tech: https://services.healthtech.dtu.dk/
+#    - Requires academic license
+#    - Follow installation instructions for each tool
+#
+# 2. InterProScan requires manual download and setup:
+#    - Download from: https://interproscan-docs.readthedocs.io/
+#    - Large database download required
+#
+# 3. Pfam database (for HMMER):
+#    wget ftp://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz
+#    gunzip Pfam-A.hmm.gz
+#    hmmpress Pfam-A.hmm
+#
+# 4. PAML codeml may require compilation from source for latest version
+#
+# 5. FastML may require source installation:
+#    - http://fastml.tau.ac.il/
+#
+# 6. GRASP (for ASR with structural modeling) requires Java and manual install:
+#    - https://github.com/bodenlab/GRASP
+#
+# 7. ChimeraX (alternative to PyMOL) requires separate download:
+#    - https://www.cgl.ucsf.edu/chimerax/
+#
+# 8. For large-scale HPC usage, consider:
+#    - Load balancing with SLURM/PBS integration in Snakemake
+#    - MPI-enabled tools if available
+#
+# To create environment:
+#   conda env create -f env/dah7ps.yaml
+#
+# To activate:
+#   conda activate dah7ps
+#
+# To update:
+#   conda env update -f env/dah7ps.yaml --prune
+#
+# To export exact versions (lockfile):
+#   conda list --explicit > env/lockfiles/dah7ps_$(date +%Y%m%d).txt
+#   conda env export > env/lockfiles/dah7ps_$(date +%Y%m%d).yaml
