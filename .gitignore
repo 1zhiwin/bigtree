@@ -1,0 +1,320 @@
+# DAH7PS Project .gitignore
+
+# ============================================================================
+# Python
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.ipynb_checkpoints/
+.ipynb_checkpoints
+
+# ============================================================================
+# R
+# ============================================================================
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+.Rapp.history
+*_cache/
+/cache/
+*.rds
+*.RDS
+
+# ============================================================================
+# Jupyter Notebooks
+# ============================================================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# ============================================================================
+# IDEs and Editors
+# ============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# ============================================================================
+# Conda/Virtual Environments
+# ============================================================================
+# Note: We keep our env/ directory for config files, but exclude actual conda envs
+.conda/
+.env
+.venv
+venv/
+ENV/
+env.bak/
+venv.bak/
+# Exclude conda environments if created locally
+/dah7ps/
+/.snakemake/
+
+# ============================================================================
+# Large Data Files (Use Git LFS or external storage)
+# ============================================================================
+
+# Raw databases (too large for Git)
+data/raw/*.fasta
+data/raw/*.fa
+data/raw/*.faa
+data/raw/*.fna
+data/raw/*.fastq
+data/raw/*.fastq.gz
+data/raw/*.fq.gz
+data/raw/*.hmm
+data/raw/*.h3f
+data/raw/*.h3i
+data/raw/*.h3m
+data/raw/*.h3p
+data/raw/Pfam*
+data/raw/uniprot*
+data/raw/refseq/
+data/raw/kegg/
+data/raw/*.blast
+data/raw/*.dmnd
+data/raw/*.tar.gz
+data/raw/*.zip
+
+# Processed sequences (include representative sets but not all intermediates)
+seqs/*.faa
+seqs/*.fa
+seqs/*.fasta
+!seqs/*_nonredundant.faa
+!seqs/*_final.faa
+seqs/domains/*.faa
+
+# Alignments (can be large)
+msa/*.aln
+msa/*.fasta
+msa/*.fa
+msa/*.sto
+!msa/*.trim.faa  # Keep trimmed alignments (smaller)
+
+# Trees (keep final trees, exclude bootstrap trees)
+trees/*.log
+trees/*.iqtree
+trees/*.bionj
+trees/*.mldist
+trees/*.model.gz
+trees/*.uniqueseq.phy
+trees/*.ckp.gz
+trees/*_boot*.tree
+trees/bootstrap/
+
+# ASR intermediate files
+asr/*.state
+asr/*.log
+asr/tmp/
+
+# Structures (PDB files can be large)
+structures/pdbs/*.pdb
+structures/pdbs/*.cif
+structures/pdbs/*.ent
+!structures/pdbs/representative_*.pdb  # Keep only representatives
+
+# ============================================================================
+# Workflow Intermediate Files
+# ============================================================================
+.snakemake/
+logs/*.log
+logs/*.err
+logs/*.out
+tmp/
+temp/
+*.tmp
+*.temp
+
+# ============================================================================
+# HPC/Cluster Files
+# ============================================================================
+slurm-*.out
+*.sh.o*
+*.sh.e*
+*.pbs.o*
+*.pbs.e*
+qsub_*
+job_*
+
+# ============================================================================
+# Compressed Archives
+# ============================================================================
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.rar
+*.gz
+*.bz2
+*.xz
+
+# Exception: Keep small documentation archives
+!docs/*.tar.gz
+
+# ============================================================================
+# Bioinformatics Tool Outputs
+# ============================================================================
+
+# HMMER
+*.domtblout
+*.tblout
+*.out
+*.hmmsearch
+*.hmmscan
+
+# BLAST
+*.blast
+*.xml
+*.asn
+
+# CD-HIT / MMseqs2
+*.clstr
+*_cdhit
+mmseqs_tmp/
+
+# MUSCLE/MAFFT
+muscle_*.log
+
+# trimAl
+*.html  # trimAl HTML reports
+
+# IQ-TREE (already covered above but being explicit)
+*.ckp.gz
+*.bionj
+*.mldist
+
+# PAML
+rst
+rst1
+rub
+4fold.nuc
+2NG.dN
+2NG.dS
+2NG.t
+lnf
+rates
+
+# ============================================================================
+# Figures (Include final versions only)
+# ============================================================================
+figs/*.png
+figs/*.jpg
+figs/*.jpeg
+figs/*.tiff
+!figs/final_*.png
+!figs/figure*.png
+!figs/*.pdf  # Keep PDFs (usually smaller, vector)
+
+# ============================================================================
+# Documents (Keep most, exclude large PDFs)
+# ============================================================================
+docs/*.pdf
+!docs/manuscript*.pdf
+
+# ============================================================================
+# System Files
+# ============================================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================================
+# Misc
+# ============================================================================
+*.bak
+*.backup
+*~
+*.orig
+
+# ============================================================================
+# Keep Important Files (Exceptions)
+# ============================================================================
+
+# Configuration files - KEEP
+!workflow/config.yaml
+!env/dah7ps.yaml
+!env/README.md
+
+# Metadata and annotations - KEEP
+!data/processed/metadata.tsv
+!data/processed/cluster_map.tsv
+!data/processed/*.csv
+!data/processed/*.txt
+
+# Traits - KEEP
+!traits/*.tsv
+!traits/*.csv
+!traits/*.txt
+
+# Key sequence files - KEEP
+!seqs/*_nonredundant.faa
+!seqs/*_candidates.faa
+
+# Final trees - KEEP
+!trees/*.treefile
+!trees/*.nwk
+!trees/*.nexus
+!trees/support_summaries.tsv
+
+# Final ASR sequences - KEEP
+!asr/*_ancestral.faa
+!asr/*_posteriors.tsv
+!asr/asr_summary.md
+
+# Documentation - KEEP
+!docs/*.md
+!docs/*.txt
+!README.md
+!LICENSE
+
+# Scripts - KEEP
+!scripts/*.py
+!scripts/*.R
+!scripts/*.sh
+!scripts/*.pl
+
+# Notebooks - KEEP (but exclude checkpoints, covered above)
+!notebooks/*.ipynb
+
+# Workflow - KEEP
+!workflow/Snakefile
+!workflow/**/*.smk
+!workflow/rules/*.smk
+
+# ============================================================================
+# Git LFS (Large File Storage) - Track These
+# ============================================================================
+# If using Git LFS, configure these patterns:
+# git lfs track "seqs/*_nonredundant.faa"
+# git lfs track "msa/*.trim.faa"
+# git lfs track "trees/*.treefile"
+# git lfs track "asr/*_ancestral.faa"
+# git lfs track "structures/pdbs/representative_*.pdb"
+# git lfs track "figs/final_*.png"

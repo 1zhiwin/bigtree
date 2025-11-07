@@ -1,0 +1,432 @@
+"""
+DAH7PS Allostery Evolution & ASR - Snakemake Workflow
+
+This Snakefile orchestrates the complete analysis pipeline from sequence
+collection through ancestral sequence reconstruction and trait evolution.
+
+Author: [Your Name]
+Date: 2025-11-07
+"""
+
+import os
+from pathlib import Path
+
+# ============================================================================
+# Configuration
+# ============================================================================
+
+configfile: "workflow/config.yaml"
+
+# Project root directory
+PROJECT_ROOT = Path(config.get("project_root", os.getcwd()))
+
+# ============================================================================
+# Global Variables
+# ============================================================================
+
+# DAH7PS classes
+DAH7PS_CLASSES = ["type_Ialpha", "type_Ibeta", "type_II"]
+
+# Alignment partitions
+PARTITIONS = ["core_Ialpha", "core_Ibeta", "core_II", "ACT", "CM"]
+
+# ============================================================================
+# Target Rules
+# ============================================================================
+
+rule all:
+    """Run the complete pipeline"""
+    input:
+        # Final deliverables
+        "data/processed/metadata.tsv",
+        expand("msa/{partition}.trim.faa", partition=PARTITIONS),
+        expand("trees/{partition}.treefile", partition=PARTITIONS),
+        "asr/asr_summary.md",
+        "traits/trait_matrix.tsv",
+        "docs/report.md"
+
+
+rule test_run:
+    """Quick test run with minimal dataset"""
+    input:
+        "data/processed/test_metadata.tsv"
+
+
+# ============================================================================
+# Phase 1: Sequence Collection
+# ============================================================================
+
+rule download_pfam:
+    """Download and prepare Pfam-A HMM database"""
+    output:
+        hmm="data/raw/Pfam-A.hmm",
+        h3f="data/raw/Pfam-A.hmm.h3f",
+        h3i="data/raw/Pfam-A.hmm.h3i",
+        h3m="data/raw/Pfam-A.hmm.h3m",
+        h3p="data/raw/Pfam-A.hmm.h3p"
+    params:
+        url="ftp://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz"
+    log:
+        "logs/download_pfam.log"
+    shell:
+        """
+        wget -O data/raw/Pfam-A.hmm.gz {params.url} 2>&1 | tee {log}
+        gunzip data/raw/Pfam-A.hmm.gz 2>&1 | tee -a {log}
+        hmmpress data/raw/Pfam-A.hmm 2>&1 | tee -a {log}
+        """
+
+
+rule sequence_search:
+    """Search for DAH7PS candidates using HMMER"""
+    input:
+        hmm="data/raw/Pfam-A.hmm",
+        proteome="data/raw/uniprot_reference_proteomes.faa"  # User provides
+    output:
+        type_I="data/processed/hmmer_type_I.tblout",
+        type_II="data/processed/hmmer_type_II.tblout"
+    params:
+        evalue=config["sequence_collection"]["hmmer"]["evalue_threshold"],
+        cpu=config["sequence_collection"]["hmmer"]["cpu"],
+        type_I_id=config["sequence_collection"]["hmmer"]["type_I_profile"],
+        type_II_id=config["sequence_collection"]["hmmer"]["type_II_profile"]
+    log:
+        "logs/sequence_search.log"
+    shell:
+        """
+        # Type I search
+        hmmsearch --tblout {output.type_I} \
+                  -E {params.evalue} \
+                  --cpu {params.cpu} \
+                  {input.hmm}/{params.type_I_id}.hmm \
+                  {input.proteome} 2>&1 | tee {log}
+
+        # Type II search
+        hmmsearch --tblout {output.type_II} \
+                  -E {params.evalue} \
+                  --cpu {params.cpu} \
+                  {input.hmm}/{params.type_II_id}.hmm \
+                  {input.proteome} 2>&1 | tee -a {log}
+        """
+
+
+rule filter_sequences:
+    """Quality filter and extract candidate sequences"""
+    input:
+        type_I="data/processed/hmmer_type_I.tblout",
+        type_II="data/processed/hmmer_type_II.tblout",
+        proteome="data/raw/uniprot_reference_proteomes.faa"
+    output:
+        candidates="seqs/dah7ps_candidates.faa"
+    params:
+        min_coverage=config["sequence_collection"]["quality_filters"]["min_domain_coverage"],
+        max_ambiguous=config["sequence_collection"]["quality_filters"]["max_ambiguous_fraction"]
+    log:
+        "logs/filter_sequences.log"
+    script:
+        "scripts/filter_sequences.py"
+
+
+rule cluster_sequences:
+    """Reduce redundancy using MMseqs2 or CD-HIT"""
+    input:
+        "seqs/dah7ps_candidates.faa"
+    output:
+        nonredundant="seqs/dah7ps_nonredundant.faa",
+        cluster_map="data/processed/cluster_map.tsv"
+    params:
+        method=config["sequence_collection"]["clustering"]["method"],
+        identity=config["sequence_collection"]["clustering"]["identity_threshold"],
+        coverage=config["sequence_collection"]["clustering"]["coverage_threshold"]
+    log:
+        "logs/cluster_sequences.log"
+    threads:
+        config["sequence_collection"]["hmmer"]["cpu"]
+    script:
+        "scripts/cluster_sequences.py"
+
+
+# ============================================================================
+# Phase 2: Domain Annotation
+# ============================================================================
+
+rule annotate_domains:
+    """Scan for ACT and CM domains using hmmscan"""
+    input:
+        sequences="seqs/dah7ps_nonredundant.faa",
+        pfam="data/raw/Pfam-A.hmm"
+    output:
+        domtbl="data/processed/domain_annotations.domtblout",
+        summary="data/processed/domain_architecture.tsv"
+    params:
+        evalue=config["domain_annotation"]["hmmscan"]["evalue_threshold"],
+        cpu=config["domain_annotation"]["hmmscan"]["cpu"]
+    log:
+        "logs/annotate_domains.log"
+    shell:
+        """
+        hmmscan --domtblout {output.domtbl} \
+                -E {params.evalue} \
+                --cpu {params.cpu} \
+                {input.pfam} \
+                {input.sequences} 2>&1 | tee {log}
+        """
+
+
+rule predict_localization:
+    """Predict signal peptides and subcellular localization"""
+    input:
+        "seqs/dah7ps_nonredundant.faa"
+    output:
+        "data/processed/localization_predictions.tsv"
+    log:
+        "logs/predict_localization.log"
+    script:
+        "scripts/predict_localization.py"
+
+
+rule create_metadata:
+    """Compile comprehensive metadata table"""
+    input:
+        sequences="seqs/dah7ps_nonredundant.faa",
+        domains="data/processed/domain_architecture.tsv",
+        localization="data/processed/localization_predictions.tsv",
+        clusters="data/processed/cluster_map.tsv"
+    output:
+        "data/processed/metadata.tsv"
+    log:
+        "logs/create_metadata.log"
+    script:
+        "scripts/create_metadata.py"
+
+
+# ============================================================================
+# Phase 3: Multiple Sequence Alignment
+# ============================================================================
+
+rule extract_partitions:
+    """Extract domain-specific sequences for each partition"""
+    input:
+        sequences="seqs/dah7ps_nonredundant.faa",
+        metadata="data/processed/metadata.tsv",
+        domains="data/processed/domain_architecture.tsv"
+    output:
+        expand("seqs/domains/{partition}.faa", partition=PARTITIONS)
+    log:
+        "logs/extract_partitions.log"
+    script:
+        "scripts/extract_partitions.py"
+
+
+rule align_mafft:
+    """Align sequences using MAFFT"""
+    input:
+        "seqs/domains/{partition}.faa"
+    output:
+        "msa/{partition}.raw.faa"
+    params:
+        algorithm=config["alignment"]["mafft"]["algorithm"],
+        maxiterate=config["alignment"]["mafft"]["maxiterate"]
+    threads:
+        config["alignment"]["mafft"]["thread"]
+    log:
+        "logs/align_mafft_{partition}.log"
+    shell:
+        """
+        mafft --{params.algorithm} \
+              --maxiterate {params.maxiterate} \
+              --thread {threads} \
+              {input} > {output} 2> {log}
+        """
+
+
+rule trim_alignment:
+    """Trim alignments with trimAl"""
+    input:
+        "msa/{partition}.raw.faa"
+    output:
+        "msa/{partition}.trim.faa"
+    params:
+        mode=config["alignment"]["trimming"]["trimal_mode"]
+    log:
+        "logs/trim_alignment_{partition}.log"
+    shell:
+        """
+        trimal -in {input} \
+               -out {output} \
+               -{params.mode} 2>&1 | tee {log}
+        """
+
+
+# ============================================================================
+# Phase 4: Phylogenetic Inference
+# ============================================================================
+
+rule infer_tree:
+    """Infer phylogenetic tree using IQ-TREE 2"""
+    input:
+        "msa/{partition}.trim.faa"
+    output:
+        tree="trees/{partition}.treefile",
+        log_file="trees/{partition}.log",
+        iqtree="trees/{partition}.iqtree"
+    params:
+        model="-m MFP" if config["phylogenetics"]["iqtree"]["model_finder"] else "",
+        bootstrap=config["phylogenetics"]["iqtree"]["bootstrap_replicates"],
+        alrt=config["phylogenetics"]["iqtree"]["sh_alrt"]
+    threads:
+        config["phylogenetics"]["iqtree"]["threads"]
+    log:
+        "logs/infer_tree_{partition}.log"
+    shell:
+        """
+        iqtree2 -s {input} \
+                {params.model} \
+                -B {params.bootstrap} \
+                -alrt {params.alrt} \
+                -T {threads} \
+                --prefix trees/{wildcards.partition} 2>&1 | tee {log}
+        """
+
+
+# ============================================================================
+# Phase 5: Ancestral Sequence Reconstruction
+# ============================================================================
+
+rule ancestral_reconstruction:
+    """Perform ancestral sequence reconstruction"""
+    input:
+        alignment="msa/{partition}.trim.faa",
+        tree="trees/{partition}.treefile"
+    output:
+        state="asr/{partition}.state",
+        summary="asr/{partition}_summary.tsv"
+    threads:
+        config["phylogenetics"]["iqtree"]["threads"]
+    log:
+        "logs/asr_{partition}.log"
+    shell:
+        """
+        iqtree2 -s {input.alignment} \
+                -te {input.tree} \
+                --ancestral \
+                -T {threads} \
+                --prefix asr/{wildcards.partition} 2>&1 | tee {log}
+        """
+
+
+rule extract_ancestral_sequences:
+    """Extract and format ancestral sequences"""
+    input:
+        expand("asr/{partition}.state", partition=PARTITIONS)
+    output:
+        "asr/asr_summary.md"
+    log:
+        "logs/extract_ancestral_sequences.log"
+    script:
+        "scripts/extract_ancestral_sequences.py"
+
+
+# ============================================================================
+# Phase 6: Trait Evolution
+# ============================================================================
+
+rule prepare_trait_matrix:
+    """Prepare discrete trait matrix for evolution analysis"""
+    input:
+        metadata="data/processed/metadata.tsv",
+        tree="trees/core_Ialpha.treefile"
+    output:
+        "traits/trait_matrix.tsv"
+    log:
+        "logs/prepare_trait_matrix.log"
+    script:
+        "scripts/prepare_trait_matrix.py"
+
+
+rule reconstruct_traits:
+    """Reconstruct ancestral trait states"""
+    input:
+        traits="traits/trait_matrix.tsv",
+        tree="trees/core_Ialpha.treefile"
+    output:
+        "traits/trait_reconstruction.tsv"
+    log:
+        "logs/reconstruct_traits.log"
+    script:
+        "scripts/reconstruct_traits.R"
+
+
+# ============================================================================
+# Phase 7: Reporting
+# ============================================================================
+
+rule generate_report:
+    """Generate final report with results summary"""
+    input:
+        metadata="data/processed/metadata.tsv",
+        trees=expand("trees/{partition}.treefile", partition=PARTITIONS),
+        asr_summary="asr/asr_summary.md",
+        traits="traits/trait_matrix.tsv"
+    output:
+        "docs/report.md"
+    log:
+        "logs/generate_report.log"
+    script:
+        "scripts/generate_report.py"
+
+
+# ============================================================================
+# Utility Rules
+# ============================================================================
+
+rule clean:
+    """Remove intermediate files"""
+    shell:
+        """
+        rm -rf msa/*.raw.faa
+        rm -rf trees/*.log trees/*.iqtree trees/*.bionj
+        rm -rf logs/*.log
+        """
+
+
+rule clean_all:
+    """Remove all generated files (use with caution!)"""
+    shell:
+        """
+        rm -rf data/processed/*
+        rm -rf seqs/*.faa
+        rm -rf msa/*
+        rm -rf trees/*
+        rm -rf asr/*
+        rm -rf traits/*
+        rm -rf logs/*
+        """
+
+
+# ============================================================================
+# QC Rules
+# ============================================================================
+
+rule check_sequence_quality:
+    """Quality control check on collected sequences"""
+    input:
+        "data/processed/metadata.tsv"
+    output:
+        "logs/qc_sequences.txt"
+    script:
+        "scripts/qc_sequences.py"
+
+
+rule check_tree_support:
+    """Check phylogenetic tree support values"""
+    input:
+        expand("trees/{partition}.treefile", partition=PARTITIONS)
+    output:
+        "logs/qc_tree_support.txt"
+    script:
+        "scripts/qc_tree_support.py"
+
+
+# ============================================================================
+# End of Snakefile
+# ============================================================================
