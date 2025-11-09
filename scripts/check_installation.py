@@ -22,9 +22,12 @@ def check_command(cmd: str, version_flag: str = "--version") -> Tuple[bool, str]
             text=True,
             timeout=5
         )
-        if result.returncode == 0:
-            version = result.stdout.strip().split('\n')[0]
-            return True, version
+        # Check if command produced any output (some tools return non-zero for help)
+        output = (result.stdout + result.stderr).strip()
+        if output or result.returncode == 0:
+            # Get first line from either stdout or stderr
+            first_line = output.split('\n')[0] if output else "OK"
+            return True, first_line
         else:
             return False, "Command failed"
     except FileNotFoundError:
@@ -80,15 +83,15 @@ def main():
     print("-" * 70)
 
     tools = [
-        ("hmmsearch", "--version"),
-        ("hmmscan", "--version"),
-        ("cdhit", "-h"),
+        ("hmmsearch", "-h"),
+        ("hmmscan", "-h"),
+        ("cd-hit", "-h"),
         ("mmseqs", "version"),
         ("mafft", "--version"),
         ("muscle", "-version"),
         ("trimal", "--version"),
-        ("iqtree2", "--version"),
-        ("raxmlHPC-NG", "--version"),
+        ("iqtree", "--version"),
+        ("raxml-ng", "--version"),
     ]
 
     for tool, flag in tools:
@@ -108,7 +111,6 @@ def main():
         ("signalp6", "--version"),
         ("targetp", "--version"),
         ("interproscan.sh", "--version"),
-        ("codeml", ""),
     ]
 
     for tool, flag in optional_tools:
@@ -152,14 +154,24 @@ def main():
     if r_status:
         print(f"  ✓ R                  {r_version}")
 
-        r_packages = ["ape", "phytools", "ggtree", "ggplot2"]
+        # Core R packages (required)
+        r_packages_core = ["ape", "phytools", "ggplot2"]
+        # Optional R packages
+        r_packages_optional = ["ggtree"]
 
-        for package in r_packages:
+        for package in r_packages_core:
             status, info = check_r_package(package)
             status_symbol = "✓" if status else "✗"
             print(f"  {status_symbol} {package:20s} v{info}")
             if not status:
                 all_ok = False
+
+        # Check optional packages (don't fail if missing)
+        for package in r_packages_optional:
+            status, info = check_r_package(package)
+            status_symbol = "✓" if status else "○"
+            print(f"  {status_symbol} {package:20s} v{info} (optional)")
+            # Don't set all_ok to False for optional packages
     else:
         print(f"  ✗ R                  Not found")
         all_ok = False

@@ -1,0 +1,91 @@
+name: dah7ps
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # Python and core scientific stack
+  - python=3.10
+  - pip>=23.0
+
+  # Sequence search and database tools
+  - hmmer=3.4
+  - blast>=2.12
+  - cd-hit>=4.8
+  - mmseqs2
+
+  # Multiple sequence alignment
+  - mafft>=7.5
+  - muscle>=5.1
+  - clustalo
+
+  # Alignment trimming and quality control
+  - trimal>=1.4
+  - bmge
+
+  # Phylogenetic inference
+  - iqtree>=2.2
+  - raxml-ng
+  - fasttree
+
+  # Ancestral sequence reconstruction
+  - paml
+
+  # Sequence manipulation
+  - seqkit
+  - bioawk
+  - seqtk
+
+  # Python packages for bioinformatics
+  - biopython
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - plotly
+
+  # Phylogenetic analysis in Python
+  - ete3
+  - dendropy
+
+  # R and essential phylogenetics packages
+  - r-base>=4.2
+  - r-ape
+  - r-phytools
+  - r-ggplot2
+  - r-tidyverse
+  - r-phangorn
+
+  # Workflow management
+  - snakemake>=7.0
+  - snakemake-minimal
+
+  # Version control and utilities
+  - git
+  - wget
+  - curl
+
+  # Jupyter for notebooks
+  - jupyter
+  - jupyterlab
+  - ipython
+
+  # Text processing
+  - csvtk
+  - jq
+
+  # Pip packages
+  - pip:
+    - pyhmmer>=0.10
+    - biotite>=0.38
+    - logomaker
+    - scikit-bio
+    - pyyaml
+    - colorlog
+    - tqdm
+    - requests
+    - lxml
+    - openpyxl

@@ -26,7 +26,7 @@ paths:
 # External databases and resources
 databases:
   pfam_hmm: "data/raw/Pfam-A.hmm"
-  uniprot_ref_proteomes: "data/raw/uniprot_reference_proteomes"
+  uniprot_ref_proteomes: "data/raw/test_proteomes.faa"  # Updated to use test dataset
   refseq: "data/raw/refseq"
   kegg_ko: "data/raw/kegg/ko_list"
   pdb_structures: "structures/pdbs"

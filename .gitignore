@@ -260,6 +260,7 @@ desktop.ini
 # Configuration files - KEEP
 !workflow/config.yaml
 !env/dah7ps.yaml
+!env/dah7ps_minimal.yaml
 !env/README.md
 
 # Metadata and annotations - KEEP
@@ -267,6 +268,12 @@ desktop.ini
 !data/processed/cluster_map.tsv
 !data/processed/*.csv
 !data/processed/*.txt
+
+# Raw data results - KEEP selected files
+!data/raw/work.log
+!data/raw/dah7ps_sequences.faa
+!data/raw/dah7ps_metadata.tsv
+!data/raw/dah7ps_hmmer_analysis.txt
 
 # Traits - KEEP
 !traits/*.tsv
