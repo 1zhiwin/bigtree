@@ -1,0 +1,3786 @@
+[
+  {
+    "position": 1,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "D"
+      ],
+      "Tyr": [
+        "N",
+        "M"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 2,
+    "trait_amino_acids": {
+      "Phe": [
+        "K",
+        "R"
+      ],
+      "Tyr": [
+        "Q",
+        "N"
+      ],
+      "Trp": [
+        "M"
+      ]
+    },
+    "conservation_score": 0.75
+  },
+  {
+    "position": 3,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "K"
+      ],
+      "Tyr": [
+        "G",
+        "Y"
+      ],
+      "Trp": [
+        "N"
+      ]
+    },
+    "conservation_score": 0.75
+  },
+  {
+    "position": 4,
+    "trait_amino_acids": {
+      "Phe": [
+        "R",
+        "A"
+      ],
+      "Tyr": [
+        "Q",
+        "A"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 5,
+    "trait_amino_acids": {
+      "Phe": [
+        "L"
+      ],
+      "Tyr": [
+        "E",
+        "N"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 6,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "N"
+      ],
+      "Tyr": [
+        "D",
+        "E"
+      ],
+      "Trp": [
+        "D"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 7,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "N"
+      ],
+      "Tyr": [
+        "D"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 8,
+    "trait_amino_acids": {
+      "Phe": [
+        "W",
+        "V"
+      ],
+      "Tyr": [
+        "L",
+        "V"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 9,
+    "trait_amino_acids": {
+      "Phe": [
+        "R",
+        "H"
+      ],
+      "Tyr": [
+        "R"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 10,
+    "trait_amino_acids": {
+      "Phe": [
+        "I"
+      ],
+      "Tyr": [
+        "I"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 11,
+    "trait_amino_acids": {
+      "Phe": [
+        "K",
+        "T"
+      ],
+      "Tyr": [
+        "K",
+        "L"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 12,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "G"
+      ],
+      "Tyr": [
+        "E",
+        "G"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 13,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "Y"
+      ],
+      "Tyr": [
+        "I",
+        "Y"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 14,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "D"
+      ],
+      "Tyr": [
+        "D",
+        "K"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 15,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "P"
+      ],
+      "Tyr": [
+        "E",
+        "P"
+      ],
+      "Trp": [
+        "S"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 17,
+    "trait_amino_acids": {
+      "Phe": [
+        "T",
+        "M"
+      ],
+      "Tyr": [
+        "L",
+        "A"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "conservation_score": 0.75
+  },
+  {
+    "position": 18,
+    "trait_amino_acids": {
+      "Phe": [
+        "T",
+        "P"
+      ],
+      "Tyr": [
+        "S",
+        "P"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 20,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "E"
+      ],
+      "Tyr": [
+        "V",
+        "A"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 21,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "L"
+      ],
+      "Tyr": [
+        "L",
+        "A"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 23,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "K"
+      ],
+      "Tyr": [
+        "Q",
+        "L"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 24,
+    "trait_amino_acids": {
+      "Phe": [
+        "H",
+        "A"
+      ],
+      "Tyr": [
+        "E",
+        "V"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "conservation_score": 0.75
+  },
+  {
+    "position": 25,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "A"
+      ],
+      "Tyr": [
+        "Q",
+        "K"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "conservation_score": 0.75
+  },
+  {
+    "position": 26,
+    "trait_amino_acids": {
+      "Phe": [
+        "F"
+      ],
+      "Tyr": [
+        "I",
+        "F"
+      ],
+      "Trp": [
+        "Y"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 28,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "I"
+      ],
+      "Tyr": [
+        "A"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 29,
+    "trait_amino_acids": {
+      "Phe": [
+        "S"
+      ],
+      "Tyr": [
+        "T"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 30,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "A"
+      ],
+      "Tyr": [
+        "E",
+        "P"
+      ],
+      "Trp": [
+        "P"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 31,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "K"
+      ],
+      "Tyr": [
+        "N",
+        "T"
+      ],
+      "Trp": [
+        "G"
+      ]
+    },
+    "conservation_score": 0.75
+  },
+  {
+    "position": 32,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "G"
+      ],
+      "Tyr": [
+        "S",
+        "A"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "conservation_score": 0.75
+  },
+  {
+    "position": 33,
+    "trait_amino_acids": {
+      "Phe": [
+        "E"
+      ],
+      "Tyr": [
+        "L",
+        "A"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 34,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "A"
+      ],
+      "Tyr": [
+        "E",
+        "N"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 35,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "N"
+      ],
+      "Tyr": [
+        "T"
+      ],
+      "Trp": [
+        "H"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 36,
+    "trait_amino_acids": {
+      "Phe": [
+        "I"
+      ],
+      "Tyr": [
+        "V",
+        "A"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 37,
+    "trait_amino_acids": {
+      "Phe": [
+        "I",
+        "A"
+      ],
+      "Tyr": [
+        "K",
+        "A"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 38,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "K"
+      ],
+      "Tyr": [
+        "R",
+        "H"
+      ],
+      "Trp": [
+        "D"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 39,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "A"
+      ],
+      "Tyr": [
+        "G",
+        "A"
+      ],
+      "Trp": [
+        "S"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 41,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "K"
+      ],
+      "Tyr": [
+        "K",
+        "R"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 42,
+    "trait_amino_acids": {
+      "Phe": [
+        "S"
+      ],
+      "Tyr": [
+        "E",
+        "A"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 43,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "I"
+      ],
+      "Tyr": [
+        "I",
+        "A"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 44,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "C"
+      ],
+      "Tyr": [
+        "I",
+        "H"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "conservation_score": 0.75
+  },
+  {
+    "position": 45,
+    "trait_amino_acids": {
+      "Phe": [
+        "D"
+      ],
+      "Tyr": [
+        "D",
+        "K"
+      ],
+      "Trp": [
+        "K"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 47,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "I"
+      ],
+      "Tyr": [
+        "L",
+        "I"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 48,
+    "trait_amino_acids": {
+      "Phe": [
+        "N",
+        "A"
+      ],
+      "Tyr": [
+        "K",
+        "T"
+      ],
+      "Trp": [
+        "N"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 50,
+    "trait_amino_acids": {
+      "Phe": [
+        "K",
+        "R"
+      ],
+      "Tyr": [
+        "K",
+        "N"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 52,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "P"
+      ],
+      "Tyr": [
+        "D"
+      ],
+      "Trp": [
+        "K"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 54,
+    "trait_amino_acids": {
+      "Phe": [
+        "L"
+      ],
+      "Tyr": [
+        "L",
+        "V"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 55,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "V"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 56,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "I"
+      ],
+      "Tyr": [
+        "V"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 57,
+    "trait_amino_acids": {
+      "Phe": [
+        "V"
+      ],
+      "Tyr": [
+        "V",
+        "I"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 58,
+    "trait_amino_acids": {
+      "Phe": [
+        "I",
+        "C"
+      ],
+      "Tyr": [
+        "V",
+        "I"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 63,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "I"
+      ],
+      "Tyr": [
+        "I"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 66,
+    "trait_amino_acids": {
+      "Phe": [
+        "P"
+      ],
+      "Tyr": [
+        "L",
+        "P"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 67,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "K"
+      ],
+      "Tyr": [
+        "E",
+        "V"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 68,
+    "trait_amino_acids": {
+      "Phe": [
+        "T",
+        "A"
+      ],
+      "Tyr": [
+        "A"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 70,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "Y"
+      ],
+      "Tyr": [
+        "Q",
+        "K"
+      ],
+      "Trp": [
+        "M"
+      ]
+    },
+    "conservation_score": 0.75
+  },
+  {
+    "position": 71,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "E"
+      ],
+      "Tyr": [
+        "E"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 74,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "R"
+      ],
+      "Tyr": [
+        "L",
+        "T"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 76,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "F"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 77,
+    "trait_amino_acids": {
+      "Phe": [
+        "K",
+        "A"
+      ],
+      "Tyr": [
+        "L",
+        "K"
+      ],
+      "Trp": [
+        "Q"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 78,
+    "trait_amino_acids": {
+      "Phe": [
+        "K",
+        "A"
+      ],
+      "Tyr": [
+        "K",
+        "A"
+      ],
+      "Trp": [
+        "S"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 79,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "I"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 80,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "A"
+      ],
+      "Tyr": [
+        "S",
+        "R"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 81,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "A"
+      ],
+      "Tyr": [
+        "D",
+        "E"
+      ],
+      "Trp": [
+        "N"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 82,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "K"
+      ],
+      "Tyr": [
+        "E"
+      ],
+      "Trp": [
+        "Q"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 83,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "V"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "Y"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 84,
+    "trait_amino_acids": {
+      "Phe": [
+        "S"
+      ],
+      "Tyr": [
+        "K"
+      ],
+      "Trp": [
+        "Q"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 85,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "K"
+      ],
+      "Tyr": [
+        "D",
+        "G"
+      ],
+      "Trp": [
+        "S"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 86,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "S"
+      ],
+      "Tyr": [
+        "D",
+        "E"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 88,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "Y"
+      ],
+      "Tyr": [
+        "E",
+        "S"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 89,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "I"
+      ],
+      "Tyr": [
+        "I"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 90,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "I"
+      ],
+      "Tyr": [
+        "V",
+        "I"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 93,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "A"
+      ],
+      "Tyr": [
+        "V",
+        "A"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 95,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "F"
+      ],
+      "Tyr": [
+        "L",
+        "F"
+      ],
+      "Trp": [
+        "F"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 101,
+    "trait_amino_acids": {
+      "Phe": [
+        "T"
+      ],
+      "Tyr": [
+        "T"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 109,
+    "trait_amino_acids": {
+      "Phe": [
+        "N"
+      ],
+      "Tyr": [
+        "N"
+      ],
+      "Trp": [
+        "S"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 112,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "H"
+      ],
+      "Tyr": [
+        "D",
+        "H"
+      ],
+      "Trp": [
+        "D"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 113,
+    "trait_amino_acids": {
+      "Phe": [
+        "M"
+      ],
+      "Tyr": [
+        "V",
+        "M"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 114,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "N"
+      ],
+      "Tyr": [
+        "D",
+        "N"
+      ],
+      "Trp": [
+        "N"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 115,
+    "trait_amino_acids": {
+      "Phe": [
+        "N",
+        "G"
+      ],
+      "Tyr": [
+        "N"
+      ],
+      "Trp": [
+        "G"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 116,
+    "trait_amino_acids": {
+      "Phe": [
+        "S"
+      ],
+      "Tyr": [
+        "S",
+        "T"
+      ],
+      "Trp": [
+        "S"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 117,
+    "trait_amino_acids": {
+      "Phe": [
+        "F"
+      ],
+      "Tyr": [
+        "F"
+      ],
+      "Trp": [
+        "Y"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 118,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "Q"
+      ],
+      "Tyr": [
+        "Q",
+        "N"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 119,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "I"
+      ],
+      "Tyr": [
+        "I"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 120,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "N"
+      ],
+      "Tyr": [
+        "N"
+      ],
+      "Trp": [
+        "N"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 121,
+    "trait_amino_acids": {
+      "Phe": [
+        "K",
+        "A"
+      ],
+      "Tyr": [
+        "D",
+        "K"
+      ],
+      "Trp": [
+        "H"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 124,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "R"
+      ],
+      "Tyr": [
+        "Q",
+        "R"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 125,
+    "trait_amino_acids": {
+      "Phe": [
+        "I"
+      ],
+      "Tyr": [
+        "S",
+        "I"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 126,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "A"
+      ],
+      "Tyr": [
+        "A"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 128,
+    "trait_amino_acids": {
+      "Phe": [
+        "K",
+        "E"
+      ],
+      "Tyr": [
+        "Q",
+        "K"
+      ],
+      "Trp": [
+        "K"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 129,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "M"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 130,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "F"
+      ],
+      "Tyr": [
+        "L",
+        "F"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 131,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "I"
+      ],
+      "Tyr": [
+        "L",
+        "V"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 132,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "K"
+      ],
+      "Tyr": [
+        "D",
+        "N"
+      ],
+      "Trp": [
+        "Q"
+      ]
+    },
+    "conservation_score": 0.75
+  },
+  {
+    "position": 133,
+    "trait_amino_acids": {
+      "Phe": [
+        "L"
+      ],
+      "Tyr": [
+        "L",
+        "I"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 134,
+    "trait_amino_acids": {
+      "Phe": [
+        "V"
+      ],
+      "Tyr": [
+        "N",
+        "T"
+      ],
+      "Trp": [
+        "N"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 135,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "N"
+      ],
+      "Tyr": [
+        "D",
+        "N"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 136,
+    "trait_amino_acids": {
+      "Phe": [
+        "K",
+        "G"
+      ],
+      "Tyr": [
+        "G"
+      ],
+      "Trp": [
+        "G"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 137,
+    "trait_amino_acids": {
+      "Phe": [
+        "L"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 139,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "I"
+      ],
+      "Tyr": [
+        "I",
+        "A"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 140,
+    "trait_amino_acids": {
+      "Phe": [
+        "A"
+      ],
+      "Tyr": [
+        "G",
+        "A"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 141,
+    "trait_amino_acids": {
+      "Phe": [
+        "G",
+        "T"
+      ],
+      "Tyr": [
+        "S",
+        "G"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 143,
+    "trait_amino_acids": {
+      "Phe": [
+        "M",
+        "A"
+      ],
+      "Tyr": [
+        "M",
+        "F"
+      ],
+      "Trp": [
+        "F"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 146,
+    "trait_amino_acids": {
+      "Phe": [
+        "P",
+        "T"
+      ],
+      "Tyr": [
+        "T",
+        "M"
+      ],
+      "Trp": [
+        "M"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 147,
+    "trait_amino_acids": {
+      "Phe": [
+        "N",
+        "I"
+      ],
+      "Tyr": [
+        "I"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 148,
+    "trait_amino_acids": {
+      "Phe": [
+        "S"
+      ],
+      "Tyr": [
+        "S",
+        "T"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 149,
+    "trait_amino_acids": {
+      "Phe": [
+        "P"
+      ],
+      "Tyr": [
+        "P"
+      ],
+      "Trp": [
+        "G"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 151,
+    "trait_amino_acids": {
+      "Phe": [
+        "F",
+        "Y"
+      ],
+      "Tyr": [
+        "Y"
+      ],
+      "Trp": [
+        "F"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 152,
+    "trait_amino_acids": {
+      "Phe": [
+        "L"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 153,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "G"
+      ],
+      "Tyr": [
+        "A"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 155,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "C"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 156,
+    "trait_amino_acids": {
+      "Phe": [
+        "F"
+      ],
+      "Tyr": [
+        "V",
+        "M"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 158,
+    "trait_amino_acids": {
+      "Phe": [
+        "W",
+        "L"
+      ],
+      "Tyr": [
+        "W",
+        "F"
+      ],
+      "Trp": [
+        "W"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 159,
+    "trait_amino_acids": {
+      "Phe": [
+        "G",
+        "S"
+      ],
+      "Tyr": [
+        "G"
+      ],
+      "Trp": [
+        "G"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 170,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "T"
+      ],
+      "Tyr": [
+        "L",
+        "V"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 174,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "M"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "M"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 177,
+    "trait_amino_acids": {
+      "Phe": [
+        "G"
+      ],
+      "Tyr": [
+        "G"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 180,
+    "trait_amino_acids": {
+      "Phe": [
+        "M",
+        "F"
+      ],
+      "Tyr": [
+        "F",
+        "C"
+      ],
+      "Trp": [
+        "C"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 182,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "I"
+      ],
+      "Tyr": [
+        "V"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 191,
+    "trait_amino_acids": {
+      "Phe": [
+        "G",
+        "S"
+      ],
+      "Tyr": [
+        "T"
+      ],
+      "Trp": [
+        "N"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 192,
+    "trait_amino_acids": {
+      "Phe": [
+        "L"
+      ],
+      "Tyr": [
+        "L",
+        "I"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 193,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "A"
+      ],
+      "Tyr": [
+        "K",
+        "N"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "conservation_score": 0.75
+  },
+  {
+    "position": 194,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "T"
+      ],
+      "Tyr": [
+        "V"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 196,
+    "trait_amino_acids": {
+      "Phe": [
+        "I"
+      ],
+      "Tyr": [
+        "V",
+        "I"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 197,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "N"
+      ],
+      "Tyr": [
+        "D"
+      ],
+      "Trp": [
+        "D"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 199,
+    "trait_amino_acids": {
+      "Phe": [
+        "M"
+      ],
+      "Tyr": [
+        "I",
+        "C"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 200,
+    "trait_amino_acids": {
+      "Phe": [
+        "R"
+      ],
+      "Tyr": [
+        "Q",
+        "N"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 203,
+    "trait_amino_acids": {
+      "Phe": [
+        "A"
+      ],
+      "Tyr": [
+        "G",
+        "A"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 204,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "H"
+      ],
+      "Tyr": [
+        "H",
+        "A"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 205,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "P"
+      ],
+      "Tyr": [
+        "S",
+        "P"
+      ],
+      "Trp": [
+        "S"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 207,
+    "trait_amino_acids": {
+      "Phe": [
+        "R",
+        "Y"
+      ],
+      "Tyr": [
+        "H",
+        "C"
+      ],
+      "Trp": [
+        "M"
+      ]
+    },
+    "conservation_score": 0.75
+  },
+  {
+    "position": 209,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "V"
+      ],
+      "Tyr": [
+        "L",
+        "M"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 210,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "G"
+      ],
+      "Tyr": [
+        "G",
+        "S"
+      ],
+      "Trp": [
+        "S"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 211,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "I"
+      ],
+      "Tyr": [
+        "V"
+      ],
+      "Trp": [
+        "P"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 212,
+    "trait_amino_acids": {
+      "Phe": [
+        "N",
+        "T"
+      ],
+      "Tyr": [
+        "T"
+      ],
+      "Trp": [
+        "D"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 213,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "K"
+      ],
+      "Tyr": [
+        "K"
+      ],
+      "Trp": [
+        "K"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 214,
+    "trait_amino_acids": {
+      "Phe": [
+        "P",
+        "A"
+      ],
+      "Tyr": [
+        "W",
+        "H"
+      ],
+      "Trp": [
+        "N"
+      ]
+    },
+    "conservation_score": 0.75
+  },
+  {
+    "position": 216,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "V"
+      ],
+      "Tyr": [
+        "V",
+        "H"
+      ],
+      "Trp": [
+        "Q"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 217,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "T"
+      ],
+      "Tyr": [
+        "S",
+        "A"
+      ],
+      "Trp": [
+        "M"
+      ]
+    },
+    "conservation_score": 0.75
+  },
+  {
+    "position": 218,
+    "trait_amino_acids": {
+      "Phe": [
+        "A"
+      ],
+      "Tyr": [
+        "A"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 219,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "I"
+      ],
+      "Tyr": [
+        "I"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 220,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "V"
+      ],
+      "Tyr": [
+        "V",
+        "T"
+      ],
+      "Trp": [
+        "Y"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 221,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "G"
+      ],
+      "Tyr": [
+        "N",
+        "T"
+      ],
+      "Trp": [
+        "Q"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 223,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "E"
+      ],
+      "Tyr": [
+        "K",
+        "S"
+      ],
+      "Trp": [
+        "S"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 226,
+    "trait_amino_acids": {
+      "Phe": [
+        "K",
+        "P"
+      ],
+      "Tyr": [
+        "E",
+        "G"
+      ],
+      "Trp": [
+        "P"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 227,
+    "trait_amino_acids": {
+      "Phe": [
+        "D"
+      ],
+      "Tyr": [
+        "D",
+        "H"
+      ],
+      "Trp": [
+        "Y"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 228,
+    "trait_amino_acids": {
+      "Phe": [
+        "G",
+        "T"
+      ],
+      "Tyr": [
+        "C"
+      ],
+      "Trp": [
+        "G"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 229,
+    "trait_amino_acids": {
+      "Phe": [
+        "F",
+        "H"
+      ],
+      "Tyr": [
+        "F",
+        "H"
+      ],
+      "Trp": [
+        "H"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 230,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "V"
+      ],
+      "Tyr": [
+        "V",
+        "I"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 232,
+    "trait_amino_acids": {
+      "Phe": [
+        "L"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "M"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 237,
+    "trait_amino_acids": {
+      "Phe": [
+        "N",
+        "A"
+      ],
+      "Tyr": [
+        "E",
+        "K"
+      ],
+      "Trp": [
+        "K"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 238,
+    "trait_amino_acids": {
+      "Phe": [
+        "P",
+        "T"
+      ],
+      "Tyr": [
+        "P",
+        "T"
+      ],
+      "Trp": [
+        "P"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 240,
+    "trait_amino_acids": {
+      "Phe": [
+        "F",
+        "Y"
+      ],
+      "Tyr": [
+        "Y"
+      ],
+      "Trp": [
+        "Y"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 241,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "S"
+      ],
+      "Tyr": [
+        "D",
+        "S"
+      ],
+      "Trp": [
+        "H"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 242,
+    "trait_amino_acids": {
+      "Phe": [
+        "K",
+        "P"
+      ],
+      "Tyr": [
+        "A"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 243,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "A"
+      ],
+      "Tyr": [
+        "K"
+      ],
+      "Trp": [
+        "D"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 244,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "S"
+      ],
+      "Tyr": [
+        "S",
+        "H"
+      ],
+      "Trp": [
+        "D"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 245,
+    "trait_amino_acids": {
+      "Phe": [
+        "V"
+      ],
+      "Tyr": [
+        "V"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 246,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "A"
+      ],
+      "Tyr": [
+        "A"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 247,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "N"
+      ],
+      "Tyr": [
+        "E"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 248,
+    "trait_amino_acids": {
+      "Phe": [
+        "T",
+        "C"
+      ],
+      "Tyr": [
+        "V",
+        "A"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 249,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "K"
+      ],
+      "Tyr": [
+        "K"
+      ],
+      "Trp": [
+        "C"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 250,
+    "trait_amino_acids": {
+      "Phe": [
+        "K"
+      ],
+      "Tyr": [
+        "E",
+        "A"
+      ],
+      "Trp": [
+        "D"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 251,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "E"
+      ],
+      "Tyr": [
+        "Q",
+        "G"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 252,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "M"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 253,
+    "trait_amino_acids": {
+      "Phe": [
+        "E"
+      ],
+      "Tyr": [
+        "N",
+        "P"
+      ],
+      "Trp": [
+        "H"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 254,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "K"
+      ],
+      "Tyr": [
+        "K",
+        "A"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 255,
+    "trait_amino_acids": {
+      "Phe": [
+        "A"
+      ],
+      "Tyr": [
+        "G",
+        "A"
+      ],
+      "Trp": [
+        "F"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 256,
+    "trait_amino_acids": {
+      "Phe": [
+        "G"
+      ],
+      "Tyr": [
+        "G"
+      ],
+      "Trp": [
+        "D"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 258,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "R"
+      ],
+      "Tyr": [
+        "S",
+        "P"
+      ],
+      "Trp": [
+        "P"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 259,
+    "trait_amino_acids": {
+      "Phe": [
+        "K",
+        "P"
+      ],
+      "Tyr": [
+        "N",
+        "A"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "conservation_score": 0.75
+  },
+  {
+    "position": 260,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "R"
+      ],
+      "Tyr": [
+        "Q",
+        "G"
+      ],
+      "Trp": [
+        "H"
+      ]
+    },
+    "conservation_score": 0.75
+  },
+  {
+    "position": 261,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "I"
+      ],
+      "Tyr": [
+        "L",
+        "V"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 262,
+    "trait_amino_acids": {
+      "Phe": [
+        "M"
+      ],
+      "Tyr": [
+        "M"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 263,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "I"
+      ],
+      "Tyr": [
+        "I"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 265,
+    "trait_amino_acids": {
+      "Phe": [
+        "C"
+      ],
+      "Tyr": [
+        "F",
+        "Y"
+      ],
+      "Trp": [
+        "F"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 268,
+    "trait_amino_acids": {
+      "Phe": [
+        "G"
+      ],
+      "Tyr": [
+        "G",
+        "A"
+      ],
+      "Trp": [
+        "G"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 270,
+    "trait_amino_acids": {
+      "Phe": [
+        "S"
+      ],
+      "Tyr": [
+        "S"
+      ],
+      "Trp": [
+        "C"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 271,
+    "trait_amino_acids": {
+      "Phe": [
+        "N"
+      ],
+      "Tyr": [
+        "N",
+        "S"
+      ],
+      "Trp": [
+        "Q"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 273,
+    "trait_amino_acids": {
+      "Phe": [
+        "D"
+      ],
+      "Tyr": [
+        "Q",
+        "D"
+      ],
+      "Trp": [
+        "Q"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 274,
+    "trait_amino_acids": {
+      "Phe": [
+        "F",
+        "Y"
+      ],
+      "Tyr": [
+        "F"
+      ],
+      "Trp": [
+        "H"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 275,
+    "trait_amino_acids": {
+      "Phe": [
+        "K",
+        "R"
+      ],
+      "Tyr": [
+        "K",
+        "R"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 276,
+    "trait_amino_acids": {
+      "Phe": [
+        "N",
+        "R"
+      ],
+      "Tyr": [
+        "K",
+        "N"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 278,
+    "trait_amino_acids": {
+      "Phe": [
+        "P"
+      ],
+      "Tyr": [
+        "P",
+        "M"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 279,
+    "trait_amino_acids": {
+      "Phe": [
+        "K",
+        "A"
+      ],
+      "Tyr": [
+        "D",
+        "K"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 281,
+    "trait_amino_acids": {
+      "Phe": [
+        "A"
+      ],
+      "Tyr": [
+        "N",
+        "C"
+      ],
+      "Trp": [
+        "C"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 282,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "K"
+      ],
+      "Tyr": [
+        "D",
+        "A"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 283,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "C"
+      ],
+      "Tyr": [
+        "D",
+        "V"
+      ],
+      "Trp": [
+        "D"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 284,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "I"
+      ],
+      "Tyr": [
+        "V"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 285,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "Y"
+      ],
+      "Tyr": [
+        "C"
+      ],
+      "Trp": [
+        "C"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 286,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "A"
+      ],
+      "Tyr": [
+        "Q",
+        "E"
+      ],
+      "Trp": [
+        "Q"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 288,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "I"
+      ],
+      "Tyr": [
+        "I"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 289,
+    "trait_amino_acids": {
+      "Phe": [
+        "K",
+        "T"
+      ],
+      "Tyr": [
+        "A"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 290,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "E"
+      ],
+      "Tyr": [
+        "N",
+        "G"
+      ],
+      "Trp": [
+        "N"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 292,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "N"
+      ],
+      "Tyr": [
+        "E"
+      ],
+      "Trp": [
+        "S"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 293,
+    "trait_amino_acids": {
+      "Phe": [
+        "N",
+        "R"
+      ],
+      "Tyr": [
+        "K",
+        "N"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 294,
+    "trait_amino_acids": {
+      "Phe": [
+        "S"
+      ],
+      "Tyr": [
+        "A"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 295,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "I"
+      ],
+      "Tyr": [
+        "I"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 296,
+    "trait_amino_acids": {
+      "Phe": [
+        "I",
+        "C"
+      ],
+      "Tyr": [
+        "I",
+        "T"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 298,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "V"
+      ],
+      "Tyr": [
+        "V"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 300,
+    "trait_amino_acids": {
+      "Phe": [
+        "I"
+      ],
+      "Tyr": [
+        "V",
+        "I"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 303,
+    "trait_amino_acids": {
+      "Phe": [
+        "N"
+      ],
+      "Tyr": [
+        "N",
+        "H"
+      ],
+      "Trp": [
+        "F"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 304,
+    "trait_amino_acids": {
+      "Phe": [
+        "I"
+      ],
+      "Tyr": [
+        "L",
+        "I"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 305,
+    "trait_amino_acids": {
+      "Phe": [
+        "N",
+        "H"
+      ],
+      "Tyr": [
+        "N",
+        "V"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 308,
+    "trait_amino_acids": {
+      "Phe": [
+        "N",
+        "R"
+      ],
+      "Tyr": [
+        "N"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 310,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "S"
+      ],
+      "Tyr": [
+        "G",
+        "S"
+      ],
+      "Trp": [
+        "K"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 311,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "I"
+      ],
+      "Tyr": [
+        "L",
+        "I"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 312,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "P"
+      ],
+      "Tyr": [
+        "E",
+        "P"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 313,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "K"
+      ],
+      "Tyr": [
+        "S",
+        "A"
+      ],
+      "Trp": [
+        "G"
+      ]
+    },
+    "conservation_score": 0.75
+  },
+  {
+    "position": 314,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "P"
+      ],
+      "Tyr": [
+        "E",
+        "G"
+      ],
+      "Trp": [
+        "S"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 315,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "M"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 316,
+    "trait_amino_acids": {
+      "Phe": [
+        "K"
+      ],
+      "Tyr": [
+        "K",
+        "A"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 319,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "C"
+      ],
+      "Tyr": [
+        "K",
+        "V"
+      ],
+      "Trp": [
+        "Q"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 321,
+    "trait_amino_acids": {
+      "Phe": [
+        "V"
+      ],
+      "Tyr": [
+        "I"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 324,
+    "trait_amino_acids": {
+      "Phe": [
+        "A"
+      ],
+      "Tyr": [
+        "A"
+      ],
+      "Trp": [
+        "P"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 326,
+    "trait_amino_acids": {
+      "Phe": [
+        "I"
+      ],
+      "Tyr": [
+        "I"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 327,
+    "trait_amino_acids": {
+      "Phe": [
+        "G",
+        "S"
+      ],
+      "Tyr": [
+        "G"
+      ],
+      "Trp": [
+        "G"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 330,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "M"
+      ],
+      "Tyr": [
+        "D",
+        "T"
+      ],
+      "Trp": [
+        "D"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 332,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "E"
+      ],
+      "Tyr": [
+        "D",
+        "E"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 333,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "A"
+      ],
+      "Tyr": [
+        "D",
+        "A"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 334,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "V"
+      ],
+      "Tyr": [
+        "L",
+        "V"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 335,
+    "trait_amino_acids": {
+      "Phe": [
+        "L"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 336,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "R"
+      ],
+      "Tyr": [
+        "R"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 337,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "L"
+      ],
+      "Tyr": [
+        "Q",
+        "K"
+      ],
+      "Trp": [
+        "K"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 338,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "I"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 339,
+    "trait_amino_acids": {
+      "Phe": [
+        "A",
+        "H"
+      ],
+      "Tyr": [
+        "A"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 340,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "E"
+      ],
+      "Tyr": [
+        "N",
+        "A"
+      ],
+      "Trp": [
+        "S"
+      ]
+    },
+    "conservation_score": 0.75
+  },
+  {
+    "position": 341,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "G"
+      ],
+      "Tyr": [
+        "A"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "conservation_score": 0.85
+  },
+  {
+    "position": 342,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "V"
+      ],
+      "Tyr": [
+        "V"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 343,
+    "trait_amino_acids": {
+      "Phe": [
+        "N",
+        "R"
+      ],
+      "Tyr": [
+        "K",
+        "R"
+      ],
+      "Trp": [
+        "D"
+      ]
+    },
+    "conservation_score": 0.8
+  },
+  {
+    "position": 344,
+    "trait_amino_acids": {
+      "Phe": [
+        "N",
+        "G"
+      ],
+      "Tyr": [
+        "Q",
+        "A"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "conservation_score": 0.75
+  },
+  {
+    "position": 345,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "R"
+      ],
+      "Tyr": [
+        "R"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "conservation_score": 0.9
+  },
+  {
+    "position": 346,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "R"
+      ],
+      "Tyr": [
+        "R"
+      ],
+      "Trp": [
+        "F"
+      ]
+    },
+    "conservation_score": 0.85
+  }
+]

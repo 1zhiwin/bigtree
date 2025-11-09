@@ -1,0 +1,3 @@
+protein_id	gene_name	regulatory_specificity	total_length	dah7ps_domain	cm_domain	is_bifunctional
+sp|P14843|AROF_YEAST	ARO3	Phe-sensitive, bifunctional DAH7PS-CM	370	1-300	300-370	True
+sp|P32449|AROG_YEAST	ARO4	Tyr-sensitive, bifunctional DAH7PS-CM	370	1-300	300-370	True

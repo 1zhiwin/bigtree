@@ -1,0 +1,9 @@
+protein_id	organism	regulatory_specificity	total_length	catalytic_domain_end	act_domain_start	act_region_length	has_tandem_act	act1_length	act2_length
+sp|P00888|AROF_ECOLI	Escherichia coli K-12	Phe-sensitive	356	260	270	86	False	86	0
+sp|P0AB91|AROG_ECOLI	Escherichia coli K-12	Tyr-sensitive	350	260	270	80	False	80	0
+sp|P00887|AROH_ECOLI	Escherichia coli K-12	Trp-sensitive	348	260	270	78	False	78	0
+sp|P39912|AROG_BACSU	Bacillus subtilis 168	Unknown	358	260	270	88	False	88	0
+tr|Q9I2Y7|Q9I2Y7_PSEAE	Pseudomonas aeruginosa PAO1	Unknown	358	260	270	88	False	88	0
+tr|Q9HZQ4|Q9HZQ4_PSEAE	Pseudomonas aeruginosa PAO1	Unknown	364	260	270	94	False	94	0
+sp|P14843|AROF_YEAST	Saccharomyces cerevisiae S288C	Phe-sensitive, bifunctional DAH7PS-CM	370	260	270	100	False	100	0
+sp|P32449|AROG_YEAST	Saccharomyces cerevisiae S288C	Tyr-sensitive, bifunctional DAH7PS-CM	370	260	270	100	False	100	0

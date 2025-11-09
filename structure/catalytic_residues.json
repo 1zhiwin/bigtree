@@ -1,0 +1,48 @@
+{
+  "Type_I": {
+    "description": "Type I DAH7PS (\u03b1/\u03b2 fold)",
+    "active_site": [
+      "Lys (Schiff base formation with PEP)",
+      "His (proton transfer)",
+      "Arg (phosphate binding)",
+      "Asp (metal coordination)"
+    ],
+    "allosteric_sites": {
+      "Phe-sensitive": [
+        "ACT domain (C-terminal)",
+        "Phe binding pocket: aromatic, hydrophobic residues"
+      ],
+      "Tyr-sensitive": [
+        "ACT domain (C-terminal)",
+        "Tyr binding pocket: similar to Phe but accommodates OH"
+      ],
+      "Trp-sensitive": [
+        "ACT domain (C-terminal)",
+        "Trp binding pocket: larger, accommodates indole ring"
+      ]
+    },
+    "known_structures": [
+      "E. coli aroF (PDB: not available)",
+      "E. coli aroG (PDB: not available)",
+      "S. cerevisiae ARO3 (PDB: 1N8F, 1QMG)",
+      "S. cerevisiae ARO4 (PDB: 1GG1)"
+    ]
+  },
+  "Type_II": {
+    "description": "Type II DAH7PS ((\u03b2/\u03b1)\u2088 TIM barrel)",
+    "active_site": [
+      "Active site at barrel C-terminus",
+      "Metal binding site (typically Mn\u00b2\u207a or Co\u00b2\u207a)",
+      "Catalytic residues in loops connecting \u03b2-strands to \u03b1-helices"
+    ],
+    "structural_features": [
+      "TIM barrel core domain",
+      "Transit peptide (plants): N-terminal 50-80 aa",
+      "Cleavage site: typically VxA or FxA motif"
+    ],
+    "known_structures": [
+      "A. thaliana DHS (PDB: not widely available)",
+      "Bacterial Type II (limited structural data)"
+    ]
+  }
+}
