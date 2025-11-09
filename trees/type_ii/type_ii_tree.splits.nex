@@ -1,0 +1,34 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=6;
+TAXLABELS
+[1] 'tr|Q7DC82|Q7DC82_PSEAE'
+[2] 'tr|Q9I000|Q9I000_PSEAE'
+[3] 'sp|Q00218|AROG_ARATH'
+[4] 'tr|Q9SK84|Q9SK84_ARATH'
+[5] 'sp|P29976|AROF_ARATH'
+[6] 'sp|O53512|AROG_MYCTU'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=6 nsplits=13;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 3,
+	100	 5,
+	30	 3 5,
+	100	 4,
+	100	 1 2 6,
+	99	 1 6,
+	100	 6,
+	100	 1,
+	2	 4 5,
+	69	 3 4,
+	1	 1 2,
+	1	 2 6,
+;
+END; [Splits]
+
