@@ -1,0 +1,12 @@
+{
+  "Catalytic_C_term": {
+    "total": 20,
+    "trait_specific": 16,
+    "percent": 80.0
+  },
+  "ACT_N_term": {
+    "total": 21,
+    "trait_specific": 17,
+    "percent": 80.95238095238095
+  }
+}
