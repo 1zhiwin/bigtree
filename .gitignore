@@ -330,3 +330,4 @@ data/
 
 # 但保留 data/README.md
 !data/README.md
+data/
