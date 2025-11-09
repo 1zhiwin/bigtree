@@ -1,0 +1,4248 @@
+[
+  {
+    "position": 1,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "Q"
+      ],
+      "Tyr": [
+        "M",
+        "N"
+      ]
+    },
+    "num_traits": 2,
+    "total_amino_acids": 4,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 2,
+    "trait_amino_acids": {
+      "Phe": [
+        "R",
+        "K"
+      ],
+      "Tyr": [
+        "N",
+        "Q"
+      ],
+      "Trp": [
+        "M"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 5,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 3,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "K"
+      ],
+      "Tyr": [
+        "Y",
+        "G"
+      ],
+      "Trp": [
+        "N"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 5,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 4,
+    "trait_amino_acids": {
+      "Phe": [
+        "A",
+        "R"
+      ],
+      "Tyr": [
+        "A",
+        "Q"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 5,
+    "trait_amino_acids": {
+      "Phe": [
+        "L"
+      ],
+      "Tyr": [
+        "N",
+        "E"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 6,
+    "trait_amino_acids": {
+      "Phe": [
+        "N",
+        "E"
+      ],
+      "Tyr": [
+        "D",
+        "E"
+      ],
+      "Trp": [
+        "D"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 7,
+    "trait_amino_acids": {
+      "Phe": [
+        "N",
+        "D"
+      ],
+      "Tyr": [
+        "D"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 8,
+    "trait_amino_acids": {
+      "Phe": [
+        "W",
+        "V"
+      ],
+      "Tyr": [
+        "V",
+        "L"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 9,
+    "trait_amino_acids": {
+      "Phe": [
+        "H",
+        "R"
+      ],
+      "Tyr": [
+        "R"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 10,
+    "trait_amino_acids": {
+      "Phe": [
+        "I"
+      ],
+      "Tyr": [
+        "I"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 11,
+    "trait_amino_acids": {
+      "Phe": [
+        "T",
+        "K"
+      ],
+      "Tyr": [
+        "L",
+        "K"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 12,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "G"
+      ],
+      "Tyr": [
+        "G",
+        "E"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 13,
+    "trait_amino_acids": {
+      "Phe": [
+        "Y",
+        "E"
+      ],
+      "Tyr": [
+        "Y",
+        "I"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 14,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "Q"
+      ],
+      "Tyr": [
+        "D",
+        "K"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 15,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "P"
+      ],
+      "Tyr": [
+        "P",
+        "E"
+      ],
+      "Trp": [
+        "S"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 17,
+    "trait_amino_acids": {
+      "Phe": [
+        "M",
+        "T"
+      ],
+      "Tyr": [
+        "A",
+        "L"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 5,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 18,
+    "trait_amino_acids": {
+      "Phe": [
+        "T",
+        "P"
+      ],
+      "Tyr": [
+        "S",
+        "P"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 20,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "E"
+      ],
+      "Tyr": [
+        "A",
+        "V"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 21,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "L"
+      ],
+      "Tyr": [
+        "A",
+        "L"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 23,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "K"
+      ],
+      "Tyr": [
+        "Q",
+        "L"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 24,
+    "trait_amino_acids": {
+      "Phe": [
+        "H",
+        "A"
+      ],
+      "Tyr": [
+        "V",
+        "E"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 5,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 25,
+    "trait_amino_acids": {
+      "Phe": [
+        "A",
+        "E"
+      ],
+      "Tyr": [
+        "Q",
+        "K"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 5,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 26,
+    "trait_amino_acids": {
+      "Phe": [
+        "F"
+      ],
+      "Tyr": [
+        "F",
+        "I"
+      ],
+      "Trp": [
+        "Y"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 28,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "I"
+      ],
+      "Tyr": [
+        "A"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 29,
+    "trait_amino_acids": {
+      "Phe": [
+        "S"
+      ],
+      "Tyr": [
+        "T"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 30,
+    "trait_amino_acids": {
+      "Phe": [
+        "A",
+        "L"
+      ],
+      "Tyr": [
+        "P",
+        "E"
+      ],
+      "Trp": [
+        "P"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 31,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "K"
+      ],
+      "Tyr": [
+        "T",
+        "N"
+      ],
+      "Trp": [
+        "G"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 5,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 32,
+    "trait_amino_acids": {
+      "Phe": [
+        "G",
+        "Q"
+      ],
+      "Tyr": [
+        "S",
+        "A"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 5,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 33,
+    "trait_amino_acids": {
+      "Phe": [
+        "E"
+      ],
+      "Tyr": [
+        "A",
+        "L"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 34,
+    "trait_amino_acids": {
+      "Phe": [
+        "A",
+        "E"
+      ],
+      "Tyr": [
+        "N",
+        "E"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 35,
+    "trait_amino_acids": {
+      "Phe": [
+        "N",
+        "Q"
+      ],
+      "Tyr": [
+        "T"
+      ],
+      "Trp": [
+        "H"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 36,
+    "trait_amino_acids": {
+      "Phe": [
+        "I"
+      ],
+      "Tyr": [
+        "A",
+        "V"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 37,
+    "trait_amino_acids": {
+      "Phe": [
+        "A",
+        "I"
+      ],
+      "Tyr": [
+        "A",
+        "K"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 38,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "K"
+      ],
+      "Tyr": [
+        "H",
+        "R"
+      ],
+      "Trp": [
+        "D"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 39,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "A"
+      ],
+      "Tyr": [
+        "A",
+        "G"
+      ],
+      "Trp": [
+        "S"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 41,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "K"
+      ],
+      "Tyr": [
+        "R",
+        "K"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 42,
+    "trait_amino_acids": {
+      "Phe": [
+        "S"
+      ],
+      "Tyr": [
+        "A",
+        "E"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 43,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "I"
+      ],
+      "Tyr": [
+        "A",
+        "I"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 44,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "C"
+      ],
+      "Tyr": [
+        "H",
+        "I"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 5,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 45,
+    "trait_amino_acids": {
+      "Phe": [
+        "D"
+      ],
+      "Tyr": [
+        "D",
+        "K"
+      ],
+      "Trp": [
+        "K"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 47,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "I"
+      ],
+      "Tyr": [
+        "L",
+        "I"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 48,
+    "trait_amino_acids": {
+      "Phe": [
+        "A",
+        "N"
+      ],
+      "Tyr": [
+        "T",
+        "K"
+      ],
+      "Trp": [
+        "N"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 50,
+    "trait_amino_acids": {
+      "Phe": [
+        "R",
+        "K"
+      ],
+      "Tyr": [
+        "N",
+        "K"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 52,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "P"
+      ],
+      "Tyr": [
+        "D"
+      ],
+      "Trp": [
+        "K"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 54,
+    "trait_amino_acids": {
+      "Phe": [
+        "L"
+      ],
+      "Tyr": [
+        "V",
+        "L"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 55,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "L"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 56,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "I"
+      ],
+      "Tyr": [
+        "V"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 57,
+    "trait_amino_acids": {
+      "Phe": [
+        "V"
+      ],
+      "Tyr": [
+        "V",
+        "I"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 58,
+    "trait_amino_acids": {
+      "Phe": [
+        "C",
+        "I"
+      ],
+      "Tyr": [
+        "V",
+        "I"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 63,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "I"
+      ],
+      "Tyr": [
+        "I"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 66,
+    "trait_amino_acids": {
+      "Phe": [
+        "P"
+      ],
+      "Tyr": [
+        "P",
+        "L"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 67,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "K"
+      ],
+      "Tyr": [
+        "V",
+        "E"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 68,
+    "trait_amino_acids": {
+      "Phe": [
+        "A",
+        "T"
+      ],
+      "Tyr": [
+        "A"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 70,
+    "trait_amino_acids": {
+      "Phe": [
+        "Y",
+        "L"
+      ],
+      "Tyr": [
+        "Q",
+        "K"
+      ],
+      "Trp": [
+        "M"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 5,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 71,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "E"
+      ],
+      "Tyr": [
+        "E"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 74,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "R"
+      ],
+      "Tyr": [
+        "T",
+        "L"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 76,
+    "trait_amino_acids": {
+      "Phe": [
+        "F",
+        "L"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 77,
+    "trait_amino_acids": {
+      "Phe": [
+        "A",
+        "K"
+      ],
+      "Tyr": [
+        "L",
+        "K"
+      ],
+      "Trp": [
+        "Q"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 78,
+    "trait_amino_acids": {
+      "Phe": [
+        "A",
+        "K"
+      ],
+      "Tyr": [
+        "A",
+        "K"
+      ],
+      "Trp": [
+        "S"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 79,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "I"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 80,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "A"
+      ],
+      "Tyr": [
+        "S",
+        "R"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 81,
+    "trait_amino_acids": {
+      "Phe": [
+        "A",
+        "E"
+      ],
+      "Tyr": [
+        "D",
+        "E"
+      ],
+      "Trp": [
+        "N"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 82,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "K"
+      ],
+      "Tyr": [
+        "E"
+      ],
+      "Trp": [
+        "Q"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 83,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "L"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "Y"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 84,
+    "trait_amino_acids": {
+      "Phe": [
+        "S"
+      ],
+      "Tyr": [
+        "K"
+      ],
+      "Trp": [
+        "Q"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 85,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "K"
+      ],
+      "Tyr": [
+        "D",
+        "G"
+      ],
+      "Trp": [
+        "S"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 86,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "D"
+      ],
+      "Tyr": [
+        "D",
+        "E"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 88,
+    "trait_amino_acids": {
+      "Phe": [
+        "Y",
+        "L"
+      ],
+      "Tyr": [
+        "S",
+        "E"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 89,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "I"
+      ],
+      "Tyr": [
+        "I"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 90,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "I"
+      ],
+      "Tyr": [
+        "V",
+        "I"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 93,
+    "trait_amino_acids": {
+      "Phe": [
+        "A",
+        "V"
+      ],
+      "Tyr": [
+        "A",
+        "V"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 95,
+    "trait_amino_acids": {
+      "Phe": [
+        "F",
+        "L"
+      ],
+      "Tyr": [
+        "F",
+        "L"
+      ],
+      "Trp": [
+        "F"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 101,
+    "trait_amino_acids": {
+      "Phe": [
+        "T"
+      ],
+      "Tyr": [
+        "T"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 109,
+    "trait_amino_acids": {
+      "Phe": [
+        "N"
+      ],
+      "Tyr": [
+        "N"
+      ],
+      "Trp": [
+        "S"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 112,
+    "trait_amino_acids": {
+      "Phe": [
+        "H",
+        "D"
+      ],
+      "Tyr": [
+        "H",
+        "D"
+      ],
+      "Trp": [
+        "D"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 113,
+    "trait_amino_acids": {
+      "Phe": [
+        "M"
+      ],
+      "Tyr": [
+        "M",
+        "V"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 114,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "N"
+      ],
+      "Tyr": [
+        "D",
+        "N"
+      ],
+      "Trp": [
+        "N"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 115,
+    "trait_amino_acids": {
+      "Phe": [
+        "G",
+        "N"
+      ],
+      "Tyr": [
+        "N"
+      ],
+      "Trp": [
+        "G"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 116,
+    "trait_amino_acids": {
+      "Phe": [
+        "S"
+      ],
+      "Tyr": [
+        "S",
+        "T"
+      ],
+      "Trp": [
+        "S"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 117,
+    "trait_amino_acids": {
+      "Phe": [
+        "F"
+      ],
+      "Tyr": [
+        "F"
+      ],
+      "Trp": [
+        "Y"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 118,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "Q"
+      ],
+      "Tyr": [
+        "N",
+        "Q"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 119,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "I"
+      ],
+      "Tyr": [
+        "I"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 120,
+    "trait_amino_acids": {
+      "Phe": [
+        "N",
+        "E"
+      ],
+      "Tyr": [
+        "N"
+      ],
+      "Trp": [
+        "N"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 121,
+    "trait_amino_acids": {
+      "Phe": [
+        "A",
+        "K"
+      ],
+      "Tyr": [
+        "D",
+        "K"
+      ],
+      "Trp": [
+        "H"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 124,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "R"
+      ],
+      "Tyr": [
+        "Q",
+        "R"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 125,
+    "trait_amino_acids": {
+      "Phe": [
+        "I"
+      ],
+      "Tyr": [
+        "S",
+        "I"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 126,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "A"
+      ],
+      "Tyr": [
+        "A"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 128,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "K"
+      ],
+      "Tyr": [
+        "Q",
+        "K"
+      ],
+      "Trp": [
+        "K"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 129,
+    "trait_amino_acids": {
+      "Phe": [
+        "M",
+        "L"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 130,
+    "trait_amino_acids": {
+      "Phe": [
+        "F",
+        "L"
+      ],
+      "Tyr": [
+        "F",
+        "L"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 131,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "I"
+      ],
+      "Tyr": [
+        "V",
+        "L"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 132,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "K"
+      ],
+      "Tyr": [
+        "D",
+        "N"
+      ],
+      "Trp": [
+        "Q"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 5,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 133,
+    "trait_amino_acids": {
+      "Phe": [
+        "L"
+      ],
+      "Tyr": [
+        "L",
+        "I"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 134,
+    "trait_amino_acids": {
+      "Phe": [
+        "V"
+      ],
+      "Tyr": [
+        "T",
+        "N"
+      ],
+      "Trp": [
+        "N"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 135,
+    "trait_amino_acids": {
+      "Phe": [
+        "N",
+        "E"
+      ],
+      "Tyr": [
+        "D",
+        "N"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 136,
+    "trait_amino_acids": {
+      "Phe": [
+        "G",
+        "K"
+      ],
+      "Tyr": [
+        "G"
+      ],
+      "Trp": [
+        "G"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 137,
+    "trait_amino_acids": {
+      "Phe": [
+        "L"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 139,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "I"
+      ],
+      "Tyr": [
+        "A",
+        "I"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 140,
+    "trait_amino_acids": {
+      "Phe": [
+        "A"
+      ],
+      "Tyr": [
+        "A",
+        "G"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 141,
+    "trait_amino_acids": {
+      "Phe": [
+        "T",
+        "G"
+      ],
+      "Tyr": [
+        "S",
+        "G"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 143,
+    "trait_amino_acids": {
+      "Phe": [
+        "M",
+        "A"
+      ],
+      "Tyr": [
+        "M",
+        "F"
+      ],
+      "Trp": [
+        "F"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 146,
+    "trait_amino_acids": {
+      "Phe": [
+        "T",
+        "P"
+      ],
+      "Tyr": [
+        "M",
+        "T"
+      ],
+      "Trp": [
+        "M"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 147,
+    "trait_amino_acids": {
+      "Phe": [
+        "N",
+        "I"
+      ],
+      "Tyr": [
+        "I"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 148,
+    "trait_amino_acids": {
+      "Phe": [
+        "S"
+      ],
+      "Tyr": [
+        "S",
+        "T"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 149,
+    "trait_amino_acids": {
+      "Phe": [
+        "P"
+      ],
+      "Tyr": [
+        "P"
+      ],
+      "Trp": [
+        "G"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 151,
+    "trait_amino_acids": {
+      "Phe": [
+        "Y",
+        "F"
+      ],
+      "Tyr": [
+        "Y"
+      ],
+      "Trp": [
+        "F"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 152,
+    "trait_amino_acids": {
+      "Phe": [
+        "L"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 153,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "G"
+      ],
+      "Tyr": [
+        "A"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 155,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "C"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 156,
+    "trait_amino_acids": {
+      "Phe": [
+        "F"
+      ],
+      "Tyr": [
+        "M",
+        "V"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 158,
+    "trait_amino_acids": {
+      "Phe": [
+        "W",
+        "L"
+      ],
+      "Tyr": [
+        "W",
+        "F"
+      ],
+      "Trp": [
+        "W"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 159,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "G"
+      ],
+      "Tyr": [
+        "G"
+      ],
+      "Trp": [
+        "G"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 170,
+    "trait_amino_acids": {
+      "Phe": [
+        "T",
+        "L"
+      ],
+      "Tyr": [
+        "V",
+        "L"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 174,
+    "trait_amino_acids": {
+      "Phe": [
+        "M",
+        "L"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "M"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 177,
+    "trait_amino_acids": {
+      "Phe": [
+        "G"
+      ],
+      "Tyr": [
+        "G"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 180,
+    "trait_amino_acids": {
+      "Phe": [
+        "M",
+        "F"
+      ],
+      "Tyr": [
+        "F",
+        "C"
+      ],
+      "Trp": [
+        "C"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 182,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "I"
+      ],
+      "Tyr": [
+        "V"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 191,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "G"
+      ],
+      "Tyr": [
+        "T"
+      ],
+      "Trp": [
+        "N"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 192,
+    "trait_amino_acids": {
+      "Phe": [
+        "L"
+      ],
+      "Tyr": [
+        "L",
+        "I"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 193,
+    "trait_amino_acids": {
+      "Phe": [
+        "A",
+        "Q"
+      ],
+      "Tyr": [
+        "N",
+        "K"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 5,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 194,
+    "trait_amino_acids": {
+      "Phe": [
+        "T",
+        "V"
+      ],
+      "Tyr": [
+        "V"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 196,
+    "trait_amino_acids": {
+      "Phe": [
+        "I"
+      ],
+      "Tyr": [
+        "V",
+        "I"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 197,
+    "trait_amino_acids": {
+      "Phe": [
+        "N",
+        "D"
+      ],
+      "Tyr": [
+        "D"
+      ],
+      "Trp": [
+        "D"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 199,
+    "trait_amino_acids": {
+      "Phe": [
+        "M"
+      ],
+      "Tyr": [
+        "I",
+        "C"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 200,
+    "trait_amino_acids": {
+      "Phe": [
+        "R"
+      ],
+      "Tyr": [
+        "N",
+        "Q"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 203,
+    "trait_amino_acids": {
+      "Phe": [
+        "A"
+      ],
+      "Tyr": [
+        "A",
+        "G"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 204,
+    "trait_amino_acids": {
+      "Phe": [
+        "H",
+        "Q"
+      ],
+      "Tyr": [
+        "H",
+        "A"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 205,
+    "trait_amino_acids": {
+      "Phe": [
+        "P",
+        "E"
+      ],
+      "Tyr": [
+        "S",
+        "P"
+      ],
+      "Trp": [
+        "S"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 207,
+    "trait_amino_acids": {
+      "Phe": [
+        "Y",
+        "R"
+      ],
+      "Tyr": [
+        "H",
+        "C"
+      ],
+      "Trp": [
+        "M"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 5,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 209,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "L"
+      ],
+      "Tyr": [
+        "M",
+        "L"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 210,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "G"
+      ],
+      "Tyr": [
+        "S",
+        "G"
+      ],
+      "Trp": [
+        "S"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 211,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "I"
+      ],
+      "Tyr": [
+        "V"
+      ],
+      "Trp": [
+        "P"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 212,
+    "trait_amino_acids": {
+      "Phe": [
+        "T",
+        "N"
+      ],
+      "Tyr": [
+        "T"
+      ],
+      "Trp": [
+        "D"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 213,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "K"
+      ],
+      "Tyr": [
+        "K"
+      ],
+      "Trp": [
+        "K"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 214,
+    "trait_amino_acids": {
+      "Phe": [
+        "A",
+        "P"
+      ],
+      "Tyr": [
+        "H",
+        "W"
+      ],
+      "Trp": [
+        "N"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 5,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 216,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "Q"
+      ],
+      "Tyr": [
+        "H",
+        "V"
+      ],
+      "Trp": [
+        "Q"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 217,
+    "trait_amino_acids": {
+      "Phe": [
+        "T",
+        "V"
+      ],
+      "Tyr": [
+        "S",
+        "A"
+      ],
+      "Trp": [
+        "M"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 5,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 218,
+    "trait_amino_acids": {
+      "Phe": [
+        "A"
+      ],
+      "Tyr": [
+        "A"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 219,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "I"
+      ],
+      "Tyr": [
+        "I"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 220,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "L"
+      ],
+      "Tyr": [
+        "T",
+        "V"
+      ],
+      "Trp": [
+        "Y"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 221,
+    "trait_amino_acids": {
+      "Phe": [
+        "G",
+        "Q"
+      ],
+      "Tyr": [
+        "T",
+        "N"
+      ],
+      "Trp": [
+        "Q"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 223,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "E"
+      ],
+      "Tyr": [
+        "S",
+        "K"
+      ],
+      "Trp": [
+        "S"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 226,
+    "trait_amino_acids": {
+      "Phe": [
+        "P",
+        "K"
+      ],
+      "Tyr": [
+        "G",
+        "E"
+      ],
+      "Trp": [
+        "P"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 227,
+    "trait_amino_acids": {
+      "Phe": [
+        "D"
+      ],
+      "Tyr": [
+        "H",
+        "D"
+      ],
+      "Trp": [
+        "Y"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 228,
+    "trait_amino_acids": {
+      "Phe": [
+        "T",
+        "G"
+      ],
+      "Tyr": [
+        "C"
+      ],
+      "Trp": [
+        "G"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 229,
+    "trait_amino_acids": {
+      "Phe": [
+        "H",
+        "F"
+      ],
+      "Tyr": [
+        "H",
+        "F"
+      ],
+      "Trp": [
+        "H"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 230,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "L"
+      ],
+      "Tyr": [
+        "V",
+        "I"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 232,
+    "trait_amino_acids": {
+      "Phe": [
+        "L"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "M"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 237,
+    "trait_amino_acids": {
+      "Phe": [
+        "A",
+        "N"
+      ],
+      "Tyr": [
+        "E",
+        "K"
+      ],
+      "Trp": [
+        "K"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 238,
+    "trait_amino_acids": {
+      "Phe": [
+        "T",
+        "P"
+      ],
+      "Tyr": [
+        "T",
+        "P"
+      ],
+      "Trp": [
+        "P"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 240,
+    "trait_amino_acids": {
+      "Phe": [
+        "Y",
+        "F"
+      ],
+      "Tyr": [
+        "Y"
+      ],
+      "Trp": [
+        "Y"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 241,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "D"
+      ],
+      "Tyr": [
+        "S",
+        "D"
+      ],
+      "Trp": [
+        "H"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 242,
+    "trait_amino_acids": {
+      "Phe": [
+        "P",
+        "K"
+      ],
+      "Tyr": [
+        "A"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 243,
+    "trait_amino_acids": {
+      "Phe": [
+        "A",
+        "E"
+      ],
+      "Tyr": [
+        "K"
+      ],
+      "Trp": [
+        "D"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 244,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "D"
+      ],
+      "Tyr": [
+        "H",
+        "S"
+      ],
+      "Trp": [
+        "D"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 245,
+    "trait_amino_acids": {
+      "Phe": [
+        "V"
+      ],
+      "Tyr": [
+        "V"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 246,
+    "trait_amino_acids": {
+      "Phe": [
+        "A",
+        "Q"
+      ],
+      "Tyr": [
+        "A"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 247,
+    "trait_amino_acids": {
+      "Phe": [
+        "N",
+        "Q"
+      ],
+      "Tyr": [
+        "E"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 248,
+    "trait_amino_acids": {
+      "Phe": [
+        "T",
+        "C"
+      ],
+      "Tyr": [
+        "A",
+        "V"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 249,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "K"
+      ],
+      "Tyr": [
+        "K"
+      ],
+      "Trp": [
+        "C"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 250,
+    "trait_amino_acids": {
+      "Phe": [
+        "K"
+      ],
+      "Tyr": [
+        "A",
+        "E"
+      ],
+      "Trp": [
+        "D"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 251,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "E"
+      ],
+      "Tyr": [
+        "G",
+        "Q"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 252,
+    "trait_amino_acids": {
+      "Phe": [
+        "M",
+        "L"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 253,
+    "trait_amino_acids": {
+      "Phe": [
+        "E"
+      ],
+      "Tyr": [
+        "N",
+        "P"
+      ],
+      "Trp": [
+        "H"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 254,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "K"
+      ],
+      "Tyr": [
+        "A",
+        "K"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 255,
+    "trait_amino_acids": {
+      "Phe": [
+        "A"
+      ],
+      "Tyr": [
+        "A",
+        "G"
+      ],
+      "Trp": [
+        "F"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 256,
+    "trait_amino_acids": {
+      "Phe": [
+        "G"
+      ],
+      "Tyr": [
+        "G"
+      ],
+      "Trp": [
+        "D"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 258,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "R"
+      ],
+      "Tyr": [
+        "S",
+        "P"
+      ],
+      "Trp": [
+        "P"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 259,
+    "trait_amino_acids": {
+      "Phe": [
+        "P",
+        "K"
+      ],
+      "Tyr": [
+        "A",
+        "N"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 5,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 260,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "R"
+      ],
+      "Tyr": [
+        "G",
+        "Q"
+      ],
+      "Trp": [
+        "H"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 5,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 261,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "I"
+      ],
+      "Tyr": [
+        "V",
+        "L"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 262,
+    "trait_amino_acids": {
+      "Phe": [
+        "M"
+      ],
+      "Tyr": [
+        "M"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 263,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "I"
+      ],
+      "Tyr": [
+        "I"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 265,
+    "trait_amino_acids": {
+      "Phe": [
+        "C"
+      ],
+      "Tyr": [
+        "Y",
+        "F"
+      ],
+      "Trp": [
+        "F"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 268,
+    "trait_amino_acids": {
+      "Phe": [
+        "G"
+      ],
+      "Tyr": [
+        "A",
+        "G"
+      ],
+      "Trp": [
+        "G"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 270,
+    "trait_amino_acids": {
+      "Phe": [
+        "S"
+      ],
+      "Tyr": [
+        "S"
+      ],
+      "Trp": [
+        "C"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 271,
+    "trait_amino_acids": {
+      "Phe": [
+        "N"
+      ],
+      "Tyr": [
+        "S",
+        "N"
+      ],
+      "Trp": [
+        "Q"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 273,
+    "trait_amino_acids": {
+      "Phe": [
+        "D"
+      ],
+      "Tyr": [
+        "D",
+        "Q"
+      ],
+      "Trp": [
+        "Q"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 274,
+    "trait_amino_acids": {
+      "Phe": [
+        "Y",
+        "F"
+      ],
+      "Tyr": [
+        "F"
+      ],
+      "Trp": [
+        "H"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 275,
+    "trait_amino_acids": {
+      "Phe": [
+        "R",
+        "K"
+      ],
+      "Tyr": [
+        "R",
+        "K"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 276,
+    "trait_amino_acids": {
+      "Phe": [
+        "N",
+        "R"
+      ],
+      "Tyr": [
+        "N",
+        "K"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 278,
+    "trait_amino_acids": {
+      "Phe": [
+        "P"
+      ],
+      "Tyr": [
+        "M",
+        "P"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 279,
+    "trait_amino_acids": {
+      "Phe": [
+        "A",
+        "K"
+      ],
+      "Tyr": [
+        "D",
+        "K"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 281,
+    "trait_amino_acids": {
+      "Phe": [
+        "A"
+      ],
+      "Tyr": [
+        "N",
+        "C"
+      ],
+      "Trp": [
+        "C"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 282,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "K"
+      ],
+      "Tyr": [
+        "A",
+        "D"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 283,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "C"
+      ],
+      "Tyr": [
+        "D",
+        "V"
+      ],
+      "Trp": [
+        "D"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 284,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "I"
+      ],
+      "Tyr": [
+        "V"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 285,
+    "trait_amino_acids": {
+      "Phe": [
+        "Y",
+        "V"
+      ],
+      "Tyr": [
+        "C"
+      ],
+      "Trp": [
+        "C"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 286,
+    "trait_amino_acids": {
+      "Phe": [
+        "A",
+        "D"
+      ],
+      "Tyr": [
+        "Q",
+        "E"
+      ],
+      "Trp": [
+        "Q"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 288,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "I"
+      ],
+      "Tyr": [
+        "I"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 289,
+    "trait_amino_acids": {
+      "Phe": [
+        "T",
+        "K"
+      ],
+      "Tyr": [
+        "A"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 290,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "E"
+      ],
+      "Tyr": [
+        "G",
+        "N"
+      ],
+      "Trp": [
+        "N"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 292,
+    "trait_amino_acids": {
+      "Phe": [
+        "N",
+        "E"
+      ],
+      "Tyr": [
+        "E"
+      ],
+      "Trp": [
+        "S"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 293,
+    "trait_amino_acids": {
+      "Phe": [
+        "N",
+        "R"
+      ],
+      "Tyr": [
+        "N",
+        "K"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 294,
+    "trait_amino_acids": {
+      "Phe": [
+        "S"
+      ],
+      "Tyr": [
+        "A"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 295,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "I"
+      ],
+      "Tyr": [
+        "I"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 296,
+    "trait_amino_acids": {
+      "Phe": [
+        "I",
+        "C"
+      ],
+      "Tyr": [
+        "T",
+        "I"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 298,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "L"
+      ],
+      "Tyr": [
+        "V"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 300,
+    "trait_amino_acids": {
+      "Phe": [
+        "I"
+      ],
+      "Tyr": [
+        "V",
+        "I"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 303,
+    "trait_amino_acids": {
+      "Phe": [
+        "N"
+      ],
+      "Tyr": [
+        "H",
+        "N"
+      ],
+      "Trp": [
+        "F"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 304,
+    "trait_amino_acids": {
+      "Phe": [
+        "I"
+      ],
+      "Tyr": [
+        "L",
+        "I"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 305,
+    "trait_amino_acids": {
+      "Phe": [
+        "H",
+        "N"
+      ],
+      "Tyr": [
+        "N",
+        "V"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 308,
+    "trait_amino_acids": {
+      "Phe": [
+        "N",
+        "R"
+      ],
+      "Tyr": [
+        "N"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 310,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "D"
+      ],
+      "Tyr": [
+        "S",
+        "G"
+      ],
+      "Trp": [
+        "K"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 311,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "I"
+      ],
+      "Tyr": [
+        "L",
+        "I"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 312,
+    "trait_amino_acids": {
+      "Phe": [
+        "P",
+        "E"
+      ],
+      "Tyr": [
+        "P",
+        "E"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 313,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "K"
+      ],
+      "Tyr": [
+        "S",
+        "A"
+      ],
+      "Trp": [
+        "G"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 5,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 314,
+    "trait_amino_acids": {
+      "Phe": [
+        "P",
+        "E"
+      ],
+      "Tyr": [
+        "G",
+        "E"
+      ],
+      "Trp": [
+        "S"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 315,
+    "trait_amino_acids": {
+      "Phe": [
+        "M",
+        "L"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 316,
+    "trait_amino_acids": {
+      "Phe": [
+        "K"
+      ],
+      "Tyr": [
+        "A",
+        "K"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 319,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "C"
+      ],
+      "Tyr": [
+        "V",
+        "K"
+      ],
+      "Trp": [
+        "Q"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 321,
+    "trait_amino_acids": {
+      "Phe": [
+        "V"
+      ],
+      "Tyr": [
+        "I"
+      ],
+      "Trp": [
+        "I"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 324,
+    "trait_amino_acids": {
+      "Phe": [
+        "A"
+      ],
+      "Tyr": [
+        "A"
+      ],
+      "Trp": [
+        "P"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 326,
+    "trait_amino_acids": {
+      "Phe": [
+        "I"
+      ],
+      "Tyr": [
+        "I"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 327,
+    "trait_amino_acids": {
+      "Phe": [
+        "S",
+        "G"
+      ],
+      "Tyr": [
+        "G"
+      ],
+      "Trp": [
+        "G"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 330,
+    "trait_amino_acids": {
+      "Phe": [
+        "M",
+        "S"
+      ],
+      "Tyr": [
+        "T",
+        "D"
+      ],
+      "Trp": [
+        "D"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 332,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "E"
+      ],
+      "Tyr": [
+        "D",
+        "E"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 333,
+    "trait_amino_acids": {
+      "Phe": [
+        "A",
+        "Q"
+      ],
+      "Tyr": [
+        "A",
+        "D"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 334,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "L"
+      ],
+      "Tyr": [
+        "V",
+        "L"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 335,
+    "trait_amino_acids": {
+      "Phe": [
+        "L"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 336,
+    "trait_amino_acids": {
+      "Phe": [
+        "E",
+        "R"
+      ],
+      "Tyr": [
+        "R"
+      ],
+      "Trp": [
+        "E"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 337,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "E"
+      ],
+      "Tyr": [
+        "Q",
+        "K"
+      ],
+      "Trp": [
+        "K"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 338,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "I"
+      ],
+      "Tyr": [
+        "L"
+      ],
+      "Trp": [
+        "L"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 339,
+    "trait_amino_acids": {
+      "Phe": [
+        "H",
+        "A"
+      ],
+      "Tyr": [
+        "A"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 340,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "E"
+      ],
+      "Tyr": [
+        "A",
+        "N"
+      ],
+      "Trp": [
+        "S"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 5,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 341,
+    "trait_amino_acids": {
+      "Phe": [
+        "D",
+        "G"
+      ],
+      "Tyr": [
+        "A"
+      ],
+      "Trp": [
+        "A"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 342,
+    "trait_amino_acids": {
+      "Phe": [
+        "V",
+        "L"
+      ],
+      "Tyr": [
+        "V"
+      ],
+      "Trp": [
+        "V"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 343,
+    "trait_amino_acids": {
+      "Phe": [
+        "N",
+        "R"
+      ],
+      "Tyr": [
+        "R",
+        "K"
+      ],
+      "Trp": [
+        "D"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 4,
+    "specificity_score": 0.3333333333333333
+  },
+  {
+    "position": 344,
+    "trait_amino_acids": {
+      "Phe": [
+        "G",
+        "N"
+      ],
+      "Tyr": [
+        "A",
+        "Q"
+      ],
+      "Trp": [
+        "T"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 5,
+    "specificity_score": 1.0
+  },
+  {
+    "position": 345,
+    "trait_amino_acids": {
+      "Phe": [
+        "Q",
+        "R"
+      ],
+      "Tyr": [
+        "R"
+      ],
+      "Trp": [
+        "R"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 2,
+    "specificity_score": 0.0
+  },
+  {
+    "position": 346,
+    "trait_amino_acids": {
+      "Phe": [
+        "L",
+        "R"
+      ],
+      "Tyr": [
+        "R"
+      ],
+      "Trp": [
+        "F"
+      ]
+    },
+    "num_traits": 3,
+    "total_amino_acids": 3,
+    "specificity_score": 0.3333333333333333
+  }
+]

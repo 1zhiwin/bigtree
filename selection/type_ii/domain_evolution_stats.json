@@ -1,0 +1,11 @@
+{
+  "TIM_Barrel_Core": {
+    "num_sites": 473,
+    "mean_variability": 0.22355232203439912,
+    "median_variability": 0.21974219309095502,
+    "std_variability": 0.17155654126105005,
+    "mean_entropy": 0.37299760056150993,
+    "conserved_sites": 214,
+    "variable_sites": 25
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "Catalytic_Domain": {
+    "num_sites": 260,
+    "mean_variability": 0.2871044956540978,
+    "median_variability": 0.2925513149279196,
+    "std_variability": 0.18830127768755678,
+    "mean_entropy": 0.4476907726847139,
+    "conserved_sites": 90,
+    "variable_sites": 36
+  },
+  "Linker": {
+    "num_sites": 9,
+    "mean_variability": 0.1891990873553665,
+    "median_variability": 0.1853881232945117,
+    "std_variability": 0.1370877410954106,
+    "mean_entropy": 0.30237478289786757,
+    "conserved_sites": 5,
+    "variable_sites": 0
+  },
+  "ACT_Domain": {
+    "num_sites": 77,
+    "mean_variability": 0.3030500539745546,
+    "median_variability": 0.2690974023966015,
+    "std_variability": 0.19944211857329494,
+    "mean_entropy": 0.47144528908376404,
+    "conserved_sites": 27,
+    "variable_sites": 16
+  }
+}
