@@ -1,0 +1,100 @@
+IQ-TREE 3.0.1 built Jul  9 2025
+
+Input file name: ../../msa/type_ii/type_ii_alignment_trimmed.faa
+User tree file name: ../../trees/type_ii/type_ii_tree.treefile
+Type of analysis: tree reconstruction
+Random seed number: 438141
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 6 sequences with 473 amino-acid sites
+Number of constant sites: 127 (= 26.8499% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 127 (= 26.8499% of all sites)
+Number of parsimony informative sites: 85
+Number of distinct site patterns: 370
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: Q.PFAM+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.9527
+
+ Category  Relative_rate  Proportion
+  1         0.1274         0.2500
+  2         0.4621         0.2500
+  3         0.9917         0.2500
+  4         2.4188         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -4431.6933 (s.e. 92.3573)
+Unconstrained log-likelihood (without tree): -2680.6476
+Number of free parameters (#branches + #model parameters): 10
+Akaike information criterion (AIC) score: 8883.3867
+Corrected Akaike information criterion (AICc) score: 8883.8628
+Bayesian information criterion (BIC) score: 8924.9776
+
+Total tree length (sum of branch lengths): 3.3506
+Sum of internal branch lengths: 0.7114 (21.2313% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'tr|Q7DC82|Q7DC82_PSEAE' is drawn at root
+
++-----------------------------------------------------------tr|Q7DC82|Q7DC82_PSEAE
+| (Node1)
+|               +--------------tr|Q9I000|Q9I000_PSEAE
++---------------| (Node2)
+|               |               +-----sp|Q00218|AROG_ARATH
+|               |            +--| (Node4)
+|               |            |  +---tr|Q9SK84|Q9SK84_ARATH
+|               +------------| (Node3)
+|                            +--sp|P29976|AROF_ARATH
+|
++--------------------------sp|O53512|AROG_MYCTU
+
+Tree in newick format:
+
+(tr|Q7DC82|Q7DC82_PSEAE:1.3589281165,(tr|Q9I000|Q9I000_PSEAE:0.3433143166,((sp|Q00218|AROG_ARATH:0.1373053322,tr|Q9SK84|Q9SK84_ARATH:0.0917032957)Node4:0.0392172901,sp|P29976|AROF_ARATH:0.0806175883)Node3:0.3059644959)Node2:0.3661989080,sp|O53512|AROG_MYCTU:0.6273799462)Node1;
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t type_ii_asr.treefile -m "Q.PFAM+G4{0.952728}" --length 473
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s ../../msa/type_ii/type_ii_alignment_trimmed.faa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s ../../msa/type_ii/type_ii_alignment_trimmed.faa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sun Nov  9 12:51:44 2025
+Total CPU time used: 0.033485 seconds (0h:0m:0s)
+Total wall-clock time used: 0.034436 seconds (0h:0m:0s)
+

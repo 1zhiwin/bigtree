@@ -1,0 +1,57 @@
+IQ-TREE version 3.0.1 for Linux x86 64-bit built Jul  9 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    ouc-smp (AVX2, FMA3, 125 GB RAM)
+Command: iqtree -s ../../msa/type_ii/type_ii_alignment_trimmed.faa -te ../../trees/type_ii/type_ii_tree.treefile --ancestral -m Q.PFAM+G4 --prefix type_ii_asr
+Seed:    438141 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Nov  9 12:51:44 2025
+Kernel:  AVX+FMA - 1 threads (32 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 32 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file ../../msa/type_ii/type_ii_alignment_trimmed.faa ... Fasta format detected
+Reading fasta file: done in 4.58541e-05 secs using 50.16% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.000228433 secs using 99.81% CPU
+Alignment has 6 sequences with 473 columns, 370 distinct patterns
+85 parsimony-informative, 261 singleton sites, 127 constant sites
+                        Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 7.72113e-06 secs using 90.66% CPU
+   1  tr|Q7DC82|Q7DC82_PSEAE   14.80%    failed      2.76%
+   2  tr|Q9I000|Q9I000_PSEAE    5.29%    passed     99.71%
+   3  sp|Q00218|AROG_ARATH      0.00%    passed     92.96%
+   4  tr|Q9SK84|Q9SK84_ARATH    0.00%    passed     99.66%
+   5  sp|P29976|AROF_ARATH      0.00%    passed     94.69%
+   6  sp|O53512|AROG_MYCTU      3.17%    passed     93.18%
+****  TOTAL                     3.88%  1 sequences failed composition chi2 test (p-value<5%; df=19)
+Reading input tree file ../../trees/type_ii/type_ii_tree.treefile ...
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -4431.784
+2. Current log-likelihood: -4431.711
+3. Current log-likelihood: -4431.694
+Optimal log-likelihood: -4431.693
+Gamma shape alpha: 0.953
+Parameters optimization took 3 rounds (0.023 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -4431.693
+Ancestral state probabilities printed to type_ii_asr.state
+Total tree length: 3.351
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 0.033 sec (0h:0m:0s)
+Total wall-clock time used: 0.034 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                type_ii_asr.iqtree
+  Maximum-likelihood tree:       type_ii_asr.treefile
+  Ancestral state:               type_ii_asr.state
+  Screen log file:               type_ii_asr.log
+
+Date and Time: Sun Nov  9 12:51:44 2025
