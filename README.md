@@ -83,6 +83,106 @@ snakemake --cores 4 --use-conda test_run
 
 ---
 
+## Reproduction Instructions (All Phases)
+
+### Complete Pipeline Execution
+
+This project includes scripts for running all analysis phases independently or as a complete workflow.
+
+#### Option 1: Test Dataset (Quick Validation - ~10 minutes)
+Run the complete pipeline on a small test dataset (6 organisms):
+
+```bash
+# Activate environment
+conda activate dah7ps
+
+# Phase 1-2: Download test data and collect sequences
+python scripts/download_test_data.py
+python scripts/sequence_collection.py
+
+# Phase 3: Domain annotation
+python scripts/domain_annotation.py
+
+# Phase 4: Multiple sequence alignment
+python scripts/alignment_generation.py
+
+# Phase 5: Phylogenetic inference
+python scripts/phylogenetic_inference.py
+
+# Phase 6: Ancestral sequence reconstruction
+python scripts/ancestral_reconstruction.py
+```
+
+#### Option 2: Production Dataset (Full Analysis - ~30 minutes)
+Run production-scale analysis with 22+ reference proteomes:
+
+```bash
+# Activate environment
+conda activate dah7ps
+
+# Download reference proteomes (~150MB)
+python scripts/download_uniprot_reference.py
+
+# Run complete production pipeline
+python scripts/production_simple.py         # HMMER search, filtering, clustering
+python scripts/production_alignment_tree.py # Alignments, trees, and ASR
+
+# Results will be in:
+# - seqs_production/     (58 representative sequences)
+# - msa_production/      (3 alignments)
+# - trees_production/    (3 phylogenetic trees)
+# - asr_production/      (113 ancestral sequences)
+```
+
+#### Option 3: Custom Analysis
+Run individual phases with custom parameters:
+
+```bash
+# Sequence collection with custom E-value
+python scripts/sequence_collection.py \
+    --input data/raw/proteomes.faa \
+    --evalue 1e-15 \
+    --output seqs/custom_hits.faa
+
+# Alignment with specific algorithm
+python scripts/alignment_generation.py \
+    --input seqs/dah7ps_nonredundant.faa \
+    --algorithm einsi \
+    --output msa/custom.aln.faa
+
+# Tree with mixture models
+python scripts/phylogenetic_inference.py \
+    --alignment msa/all_sequences.trim.faa \
+    --model "LG+C60+F+R" \
+    --bootstrap 1000
+
+# ASR with custom posterior cutoff
+python scripts/ancestral_reconstruction.py \
+    --tree trees/all_sequences.treefile \
+    --alignment msa/all_sequences.trim.faa \
+    --posterior-cutoff 0.90
+```
+
+### Expected Outputs
+
+After running the complete pipeline, you should have:
+
+| Phase | Output | Description |
+|-------|--------|-------------|
+| 2 | `seqs/dah7ps_nonredundant.faa` | Clustered representative sequences |
+| 3 | `data/processed/sequence_metadata_annotated.tsv` | Domain annotations and metadata |
+| 4 | `msa/*.trim.faa` | Trimmed alignments for each partition |
+| 5 | `trees/*.treefile` | Maximum likelihood phylogenetic trees |
+| 6 | `asr/*_ancestors.faa` | Reconstructed ancestral sequences |
+
+### Computational Requirements
+
+- **Test dataset**: 4 cores, 4GB RAM, 10 minutes
+- **Production dataset**: 8 cores, 8GB RAM, 30 minutes
+- **Full proteome scan**: 16 cores, 32GB RAM, 2-4 hours
+
+---
+
 ## Project Structure
 
 ```

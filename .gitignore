@@ -325,9 +325,16 @@ desktop.ini
 # git lfs track "asr/*_ancestral.faa"
 # git lfs track "structures/pdbs/representative_*.pdb"
 # git lfs track "figs/final_*.png"
-# 忽略整个 data 文件夹
-data/
+# ============================================================================
+# Data Directories
+# ============================================================================
+# Ignore the entire data directory (includes raw data and large files)
+data/raw/
+# Also ignore any temporary data directories created during production runs
+data/production/
+data/test/
 
-# 但保留 data/README.md
+# But keep README and important processed files
 !data/README.md
-data/
+!data/processed/*.tsv
+!data/processed/*.csv
