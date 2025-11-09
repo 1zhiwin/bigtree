@@ -1,0 +1,15 @@
+Protein_ID	Organism	Gene_Name	DAH7PS_Type	Length_aa	E_value	HMM_Score	Regulatory_Specificity	Group	Phylum
+sp|P00888|AROF_ECOLI	Escherichia coli K-12	aroF	Type_I	356	4.1e-101	337.9	Phe-sensitive	Gram-negative bacteria	Proteobacteria
+sp|P0AB91|AROG_ECOLI	Escherichia coli K-12	aroG	Type_I	350	6.3e-105	350.4	Tyr-sensitive	Gram-negative bacteria	Proteobacteria
+sp|P00887|AROH_ECOLI	Escherichia coli K-12	aroH	Type_I	348	2.1e-103	345.4	Trp-sensitive	Gram-negative bacteria	Proteobacteria
+sp|P39912|AROG_BACSU	Bacillus subtilis 168	aroG	Type_I	358	1.6e-91	306.5	Unknown	Gram-positive bacteria	Firmicutes
+tr|Q9I2Y7|Q9I2Y7_PSEAE	Pseudomonas aeruginosa PAO1	aroF	Type_I	358	5.9e-87	291.5	Unknown	Gram-negative bacteria	Proteobacteria
+tr|Q9HZQ4|Q9HZQ4_PSEAE	Pseudomonas aeruginosa PAO1	aroG	Type_I	364	1.3e-72	244.4	Unknown	Gram-negative bacteria	Proteobacteria
+sp|P14843|AROF_YEAST	Saccharomyces cerevisiae S288C	ARO3	Type_I	370	2.3e-98	Unknown	Phe-sensitive, bifunctional DAH7PS-CM	Fungi	Ascomycota
+sp|P32449|AROG_YEAST	Saccharomyces cerevisiae S288C	ARO4	Type_I	370	1.6e-103	Unknown	Tyr-sensitive, bifunctional DAH7PS-CM	Fungi	Ascomycota
+sp|O53512|AROG_MYCTU	Mycobacterium tuberculosis H37Rv	aroG	Type_II	462	2.5e-190	Unknown	Unknown	Actinobacteria	Actinobacteria
+tr|Q7DC82|Q7DC82_PSEAE	Pseudomonas aeruginosa PAO1	aroH	Type_II	405	6.6e-129	430.7	Unknown	Gram-negative bacteria	Proteobacteria
+tr|Q9I000|Q9I000_PSEAE	Pseudomonas aeruginosa PAO1	aroA	Type_II	448	1.1e-215	716.6	Unknown	Gram-negative bacteria	Proteobacteria
+sp|P29976|AROF_ARATH	Arabidopsis thaliana	DHS1	Type_II	525	1.9e-206	Unknown	Plastid-targeted	Plant	Viridiplantae
+sp|Q00218|AROG_ARATH	Arabidopsis thaliana	DHS2	Type_II	507	9.2e-204	Unknown	Plastid-targeted	Plant	Viridiplantae
+tr|Q9SK84|Q9SK84_ARATH	Arabidopsis thaliana	DHS3	Type_II	527	4.3e-203	Unknown	Plastid-targeted	Plant	Viridiplantae
