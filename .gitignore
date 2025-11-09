@@ -325,3 +325,8 @@ desktop.ini
 # git lfs track "asr/*_ancestral.faa"
 # git lfs track "structures/pdbs/representative_*.pdb"
 # git lfs track "figs/final_*.png"
+# 忽略整个 data 文件夹
+data/
+
+# 但保留 data/README.md
+!data/README.md
