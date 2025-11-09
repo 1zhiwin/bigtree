@@ -1,0 +1,94 @@
+{
+  "possible_states": {
+    "tr|Q7DC82|Q7DC82_PSEAE": [
+      "Unknown"
+    ],
+    "tr|Q9I000|Q9I000_PSEAE": [
+      "Unknown"
+    ],
+    "sp|Q00218|AROG_ARATH": [
+      "Plastid"
+    ],
+    "tr|Q9SK84|Q9SK84_ARATH": [
+      "Plastid"
+    ],
+    "67.6/69": [
+      "Plastid"
+    ],
+    "sp|P29976|AROF_ARATH": [
+      "Plastid"
+    ],
+    "100/100": [
+      "Plastid"
+    ],
+    "98.8/99": [
+      "Unknown",
+      "Plastid"
+    ],
+    "sp|O53512|AROG_MYCTU": [
+      "Unknown"
+    ],
+    "Node1": [
+      "Unknown"
+    ]
+  },
+  "final_states": {
+    "Node1": "Unknown",
+    "tr|Q7DC82|Q7DC82_PSEAE": "Unknown",
+    "98.8/99": "Unknown",
+    "tr|Q9I000|Q9I000_PSEAE": "Unknown",
+    "100/100": "Plastid",
+    "67.6/69": "Plastid",
+    "sp|Q00218|AROG_ARATH": "Plastid",
+    "tr|Q9SK84|Q9SK84_ARATH": "Plastid",
+    "sp|P29976|AROF_ARATH": "Plastid",
+    "sp|O53512|AROG_MYCTU": "Unknown"
+  },
+  "ancestral_nodes": [
+    {
+      "node": "Node1",
+      "possible_states": [
+        "Unknown"
+      ],
+      "final_state": "Unknown",
+      "ambiguous": false
+    },
+    {
+      "node": "98.8/99",
+      "possible_states": [
+        "Unknown",
+        "Plastid"
+      ],
+      "final_state": "Unknown",
+      "ambiguous": true
+    },
+    {
+      "node": "100/100",
+      "possible_states": [
+        "Plastid"
+      ],
+      "final_state": "Plastid",
+      "ambiguous": false
+    },
+    {
+      "node": "67.6/69",
+      "possible_states": [
+        "Plastid"
+      ],
+      "final_state": "Plastid",
+      "ambiguous": false
+    }
+  ],
+  "num_changes": 1,
+  "change_events": [
+    {
+      "from": "Unknown",
+      "to": "Plastid",
+      "node": "100/100"
+    }
+  ],
+  "trait_distribution": {
+    "Unknown": 5,
+    "Plastid": 5
+  }
+}

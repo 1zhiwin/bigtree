@@ -1,0 +1,47 @@
+Tree with Trait Annotations
+================================================================================
+
+  __ sp|P00888|AROF_ECOLI
+ |
+ |__ tr|Q9I2Y7|Q9I2Y7_PSEAE
+ |
+ |   , sp|P0AB91|AROG_ECOLI
+ |  _|
+ | | |_____ sp|P00887|AROH_ECOLI
+_|,|
+ |||  __ sp|P14843|AROF_YEAST
+ |||_|
+ ||  |_ sp|P32449|AROG_YEAST
+ ||
+ ||_____ tr|Q9HZQ4|Q9HZQ4_PSEAE
+ |
+ |_____________________________________________________ sp|P39912|AROG_BACSU
+
+
+
+================================================================================
+Trait Legend:
+================================================================================
+
+Final Ancestral States (Fitch Parsimony):
+--------------------------------------------------------------------------------
+  0/22                                     : Unknown
+  89.9/71                                  : Tyr
+  91.6/62                                  : Unknown
+  98.1/98                                  : Tyr
+  98.4/86                                  : Tyr
+  Node1                                    : Unknown
+  sp|P00887|AROH_ECOLI                     : Trp
+  sp|P00888|AROF_ECOLI                     : Phe
+  sp|P0AB91|AROG_ECOLI                     : Tyr
+  sp|P14843|AROF_YEAST                     : Phe
+  sp|P32449|AROG_YEAST                     : Tyr
+  sp|P39912|AROG_BACSU                     : Unknown
+  tr|Q9HZQ4|Q9HZQ4_PSEAE                   : Unknown
+  tr|Q9I2Y7|Q9I2Y7_PSEAE                   : Unknown
+
+Trait Changes Detected:
+--------------------------------------------------------------------------------
+  1. Unknown → Tyr (at 89.9/71)
+
+Parsimony Score: 1 change(s)

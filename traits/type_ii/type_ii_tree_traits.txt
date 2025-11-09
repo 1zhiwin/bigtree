@@ -1,0 +1,39 @@
+Tree with Trait Annotations
+================================================================================
+
+  _____________________________________________________ tr|Q7DC82|Q7DC82_PSEAE
+ |
+ |              _____________ tr|Q9I000|Q9I000_PSEAE
+ |             |
+ |_____________|              ____ sp|Q00218|AROG_ARATH
+_|             |            _|
+ |             |___________| |__ tr|Q9SK84|Q9SK84_ARATH
+ |                         |
+ |                         |__ sp|P29976|AROF_ARATH
+ |
+ |_______________________ sp|O53512|AROG_MYCTU
+
+
+
+================================================================================
+Trait Legend:
+================================================================================
+
+Final Ancestral States (Fitch Parsimony):
+--------------------------------------------------------------------------------
+  100/100                                  : Plastid
+  67.6/69                                  : Plastid
+  98.8/99                                  : Unknown
+  Node1                                    : Unknown
+  sp|O53512|AROG_MYCTU                     : Unknown
+  sp|P29976|AROF_ARATH                     : Plastid
+  sp|Q00218|AROG_ARATH                     : Plastid
+  tr|Q7DC82|Q7DC82_PSEAE                   : Unknown
+  tr|Q9I000|Q9I000_PSEAE                   : Unknown
+  tr|Q9SK84|Q9SK84_ARATH                   : Plastid
+
+Trait Changes Detected:
+--------------------------------------------------------------------------------
+  1. Unknown → Plastid (at 100/100)
+
+Parsimony Score: 1 change(s)
