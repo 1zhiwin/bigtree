@@ -338,3 +338,14 @@ data/test/
 !data/README.md
 !data/processed/*.tsv
 !data/processed/*.csv
+
+# Additional local directories to ignore
+GIT_PUSH_INSTRUCTIONS.md
+asr/
+asr_production/
+msa/
+msa_production/
+seqs/
+seqs_production/
+trees/
+trees_production/
